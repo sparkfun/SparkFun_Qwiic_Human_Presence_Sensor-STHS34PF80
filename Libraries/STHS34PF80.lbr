@@ -238,23 +238,22 @@
 </packages>
 <symbols>
 <symbol name="STHS34PF80">
-<wire x1="-10.16" y1="7.62" x2="-10.16" y2="-7.62" width="0.254" layer="94"/>
-<wire x1="-10.16" y1="-7.62" x2="10.16" y2="-7.62" width="0.254" layer="94"/>
-<wire x1="10.16" y1="-7.62" x2="10.16" y2="7.62" width="0.254" layer="94"/>
-<wire x1="10.16" y1="7.62" x2="-10.16" y2="7.62" width="0.254" layer="94"/>
-<pin name="SCL" x="15.24" y="2.54" visible="pin" length="middle" rot="R180"/>
-<pin name="CS" x="15.24" y="-5.08" visible="pin" length="middle" rot="R180"/>
-<pin name="SDA" x="15.24" y="5.08" visible="pin" length="middle" rot="R180"/>
-<pin name="NC" x="-15.24" y="-2.54" visible="pin" length="middle" direction="nc"/>
-<pin name="VDD" x="-15.24" y="5.08" visible="pin" length="middle"/>
-<pin name="GND" x="-15.24" y="-5.08" visible="pin" length="middle"/>
-<pin name="INT" x="15.24" y="0" visible="pin" length="middle" rot="R180"/>
+<wire x1="-12.7" y1="7.62" x2="-12.7" y2="-7.62" width="0.254" layer="94"/>
+<wire x1="-12.7" y1="-7.62" x2="12.7" y2="-7.62" width="0.254" layer="94"/>
+<wire x1="12.7" y1="-7.62" x2="12.7" y2="7.62" width="0.254" layer="94"/>
+<wire x1="12.7" y1="7.62" x2="-12.7" y2="7.62" width="0.254" layer="94"/>
+<pin name="SCL/SCK" x="17.78" y="2.54" visible="pin" length="middle" rot="R180"/>
+<pin name="CS" x="17.78" y="-5.08" visible="pin" length="middle" rot="R180"/>
+<pin name="SDA/SDIO" x="17.78" y="5.08" visible="pin" length="middle" rot="R180"/>
+<pin name="VDD" x="-17.78" y="5.08" visible="pin" length="middle"/>
+<pin name="GND" x="-17.78" y="-5.08" visible="pin" length="middle"/>
+<pin name="INT" x="17.78" y="0" visible="pin" length="middle" rot="R180"/>
 </symbol>
 </symbols>
 <devicesets>
 <deviceset name="STHS34PF80">
 <gates>
-<gate name="G$1" symbol="STHS34PF80" x="2.54" y="0"/>
+<gate name="G$1" symbol="STHS34PF80" x="0" y="0"/>
 </gates>
 <devices>
 <device name="" package="LGA-10L">
@@ -262,9 +261,8 @@
 <connect gate="G$1" pin="CS" pad="3"/>
 <connect gate="G$1" pin="GND" pad="2 7 8" route="any"/>
 <connect gate="G$1" pin="INT" pad="10"/>
-<connect gate="G$1" pin="NC" pad="5"/>
-<connect gate="G$1" pin="SCL" pad="1"/>
-<connect gate="G$1" pin="SDA" pad="4"/>
+<connect gate="G$1" pin="SCL/SCK" pad="1"/>
+<connect gate="G$1" pin="SDA/SDIO" pad="4"/>
 <connect gate="G$1" pin="VDD" pad="6 9" route="any"/>
 </connects>
 <technologies>
