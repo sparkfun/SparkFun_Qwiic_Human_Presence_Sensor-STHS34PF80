@@ -4777,7 +4777,7 @@ These are the free and generally easy to produce 2-layer PCB design rules. You c
 <elements>
 <element name="FRAME1" library="SparkFun-Aesthetics" package="CREATIVE_COMMONS" value="FRAME-LETTER" x="-3.81" y="-21.59" smashed="yes">
 <attribute name="DESIGNER" value="N. Seidle" x="76.2" y="-76.2" size="1.778" layer="27" display="off"/>
-<attribute name="REV" value="v01" x="76.2" y="-76.2" size="1.778" layer="27" display="off"/>
+<attribute name="REV" value="v10" x="76.2" y="-76.2" size="1.778" layer="27" display="off"/>
 </element>
 <element name="JP1" library="SparkFun-Aesthetics" package="FIDUCIAL-MICRO" value="FIDUCIALUFIDUCIAL" x="0.635" y="0.635" smashed="yes"/>
 <element name="JP2" library="SparkFun-Aesthetics" package="FIDUCIAL-MICRO" value="FIDUCIALUFIDUCIAL" x="0.635" y="0.635" smashed="yes" rot="MR0"/>
