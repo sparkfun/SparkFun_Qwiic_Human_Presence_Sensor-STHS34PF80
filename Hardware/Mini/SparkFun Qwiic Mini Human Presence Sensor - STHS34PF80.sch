@@ -3,27 +3,27 @@
 <eagle version="9.6.2">
 <drawing>
 <settings>
-<setting alwaysvectorfont="yes"/>
+<setting alwaysvectorfont="no"/>
 <setting verticaltext="up"/>
 </settings>
 <grid distance="0.1" unitdist="inch" unit="inch" style="lines" multiple="1" display="no" altdistance="0.01" altunitdist="inch" altunit="inch"/>
 <layers>
-<layer number="1" name="Top" color="4" fill="1" visible="no" active="no"/>
-<layer number="2" name="Route2" color="16" fill="1" visible="no" active="no"/>
-<layer number="15" name="Route15" color="23" fill="1" visible="no" active="no"/>
-<layer number="16" name="Bottom" color="1" fill="1" visible="no" active="no"/>
-<layer number="17" name="Pads" color="2" fill="1" visible="no" active="no"/>
-<layer number="18" name="Vias" color="2" fill="1" visible="no" active="no"/>
-<layer number="19" name="Unrouted" color="6" fill="1" visible="no" active="no"/>
-<layer number="20" name="Dimension" color="24" fill="1" visible="no" active="no"/>
-<layer number="21" name="tPlace" color="16" fill="1" visible="no" active="no"/>
-<layer number="22" name="bPlace" color="14" fill="1" visible="no" active="no"/>
-<layer number="23" name="tOrigins" color="15" fill="1" visible="no" active="no"/>
-<layer number="24" name="bOrigins" color="15" fill="1" visible="no" active="no"/>
-<layer number="25" name="tNames" color="7" fill="1" visible="no" active="no"/>
-<layer number="26" name="bNames" color="7" fill="1" visible="no" active="no"/>
-<layer number="27" name="tValues" color="7" fill="1" visible="no" active="no"/>
-<layer number="28" name="bValues" color="7" fill="1" visible="no" active="no"/>
+<layer number="1" name="Top" color="4" fill="1" visible="yes" active="no"/>
+<layer number="2" name="Route2" color="16" fill="1" visible="yes" active="no"/>
+<layer number="15" name="Route15" color="23" fill="1" visible="yes" active="no"/>
+<layer number="16" name="Bottom" color="1" fill="1" visible="yes" active="no"/>
+<layer number="17" name="Pads" color="2" fill="1" visible="yes" active="no"/>
+<layer number="18" name="Vias" color="2" fill="1" visible="yes" active="no"/>
+<layer number="19" name="Unrouted" color="6" fill="1" visible="yes" active="no"/>
+<layer number="20" name="Dimension" color="24" fill="1" visible="yes" active="no"/>
+<layer number="21" name="tPlace" color="16" fill="1" visible="yes" active="no"/>
+<layer number="22" name="bPlace" color="14" fill="1" visible="yes" active="no"/>
+<layer number="23" name="tOrigins" color="15" fill="1" visible="yes" active="no"/>
+<layer number="24" name="bOrigins" color="15" fill="1" visible="yes" active="no"/>
+<layer number="25" name="tNames" color="7" fill="1" visible="yes" active="no"/>
+<layer number="26" name="bNames" color="7" fill="1" visible="yes" active="no"/>
+<layer number="27" name="tValues" color="7" fill="1" visible="yes" active="no"/>
+<layer number="28" name="bValues" color="7" fill="1" visible="yes" active="no"/>
 <layer number="29" name="tStop" color="7" fill="3" visible="no" active="no"/>
 <layer number="30" name="bStop" color="7" fill="6" visible="no" active="no"/>
 <layer number="31" name="tCream" color="7" fill="4" visible="no" active="no"/>
@@ -32,8 +32,8 @@
 <layer number="34" name="bFinish" color="6" fill="6" visible="no" active="no"/>
 <layer number="35" name="tGlue" color="7" fill="4" visible="no" active="no"/>
 <layer number="36" name="bGlue" color="7" fill="5" visible="no" active="no"/>
-<layer number="37" name="tTest" color="7" fill="1" visible="no" active="no"/>
-<layer number="38" name="bTest" color="7" fill="1" visible="no" active="no"/>
+<layer number="37" name="tTest" color="7" fill="1" visible="yes" active="no"/>
+<layer number="38" name="bTest" color="7" fill="1" visible="yes" active="no"/>
 <layer number="39" name="tKeepout" color="4" fill="11" visible="no" active="no"/>
 <layer number="40" name="bKeepout" color="1" fill="11" visible="no" active="no"/>
 <layer number="41" name="tRestrict" color="4" fill="10" visible="no" active="no"/>
@@ -41,20 +41,20 @@
 <layer number="43" name="vRestrict" color="2" fill="10" visible="no" active="no"/>
 <layer number="44" name="Drills" color="7" fill="1" visible="no" active="no"/>
 <layer number="45" name="Holes" color="7" fill="1" visible="no" active="no"/>
-<layer number="46" name="Milling" color="3" fill="1" visible="no" active="no"/>
-<layer number="47" name="Measures" color="7" fill="1" visible="no" active="no"/>
-<layer number="48" name="Document" color="7" fill="1" visible="no" active="no"/>
-<layer number="49" name="Reference" color="7" fill="1" visible="no" active="no"/>
-<layer number="50" name="dxf" color="7" fill="1" visible="no" active="no"/>
-<layer number="51" name="tDocu" color="6" fill="1" visible="no" active="no"/>
-<layer number="52" name="bDocu" color="7" fill="1" visible="no" active="no"/>
-<layer number="53" name="tGND_GNDA" color="7" fill="9" visible="no" active="no"/>
-<layer number="54" name="bGND_GNDA" color="1" fill="9" visible="no" active="no"/>
-<layer number="56" name="wert" color="7" fill="1" visible="no" active="no"/>
-<layer number="57" name="tCAD" color="7" fill="1" visible="no" active="no"/>
-<layer number="58" name="bCAD" color="7" fill="1" visible="no" active="no"/>
-<layer number="59" name="tCarbon" color="7" fill="1" visible="no" active="no"/>
-<layer number="60" name="bCarbon" color="7" fill="1" visible="no" active="no"/>
+<layer number="46" name="Milling" color="3" fill="1" visible="yes" active="no"/>
+<layer number="47" name="Measures" color="7" fill="1" visible="yes" active="no"/>
+<layer number="48" name="Document" color="7" fill="1" visible="yes" active="no"/>
+<layer number="49" name="Reference" color="7" fill="1" visible="yes" active="no"/>
+<layer number="50" name="dxf" color="7" fill="1" visible="yes" active="no"/>
+<layer number="51" name="tDocu" color="6" fill="1" visible="yes" active="no"/>
+<layer number="52" name="bDocu" color="7" fill="1" visible="yes" active="no"/>
+<layer number="53" name="tGND_GNDA" color="7" fill="9" visible="yes" active="no"/>
+<layer number="54" name="bGND_GNDA" color="1" fill="9" visible="yes" active="no"/>
+<layer number="56" name="wert" color="7" fill="1" visible="yes" active="no"/>
+<layer number="57" name="tCAD" color="7" fill="1" visible="yes" active="no"/>
+<layer number="58" name="bCAD" color="7" fill="1" visible="yes" active="no"/>
+<layer number="59" name="tCarbon" color="7" fill="1" visible="yes" active="no"/>
+<layer number="60" name="bCarbon" color="7" fill="1" visible="yes" active="no"/>
 <layer number="88" name="SimResults" color="9" fill="1" visible="yes" active="yes"/>
 <layer number="89" name="SimProbes" color="9" fill="1" visible="yes" active="yes"/>
 <layer number="90" name="Modules" color="5" fill="1" visible="yes" active="yes"/>
@@ -40361,113 +40361,6 @@ You are welcome to use this library for commercial purposes. For attribution, we
 </deviceset>
 </devicesets>
 </library>
-<library name="STHS34PF80">
-<packages>
-<package name="OLGA-10L">
-<description>&lt;h3&gt;LGA10&lt;/h3&gt;
-&lt;p&gt;Specifications:
-&lt;ul&gt;&lt;li&gt;Pin count: 10&lt;/li&gt;
-&lt;li&gt;Pin pitch: .5mm&lt;/li&gt;
-&lt;li&gt;Area: 2.0 x 2.0 mm&lt;/li&gt;
-&lt;/ul&gt;&lt;/p&gt;
-&lt;p&gt;&lt;a href=https://media.digikey.com/pdf/Data%20Sheets/Bosch/bst-bmp384-ds003.pdf&gt;Datasheet referenced for footprint&lt;/a&gt;&lt;/p&gt;</description>
-<circle x="-2.118" y="1.458" radius="0.045253125" width="0.175" layer="21"/>
-<smd name="3" x="-1.475" y="0" dx="0.75" dy="0.285" layer="1" cream="no"/>
-<wire x1="-1.6" y1="2.1" x2="1.6" y2="2.1" width="0.05" layer="51"/>
-<wire x1="1.6" y1="2.1" x2="1.6" y2="-2.1" width="0.05" layer="51"/>
-<wire x1="1.6" y1="-2.1" x2="-1.6" y2="-2.1" width="0.05" layer="51"/>
-<wire x1="-1.6" y1="-2.1" x2="-1.6" y2="2.1" width="0.05" layer="51"/>
-<text x="0" y="2.778" size="0.6096" layer="25" font="vector" ratio="20" align="center">&gt;Name</text>
-<text x="0" y="-2.778" size="0.6096" layer="27" font="vector" ratio="20" align="center">&gt;Value</text>
-<rectangle x1="-1.855" y1="-0.15" x2="-1.09" y2="0.15" layer="31" rot="R180"/>
-<wire x1="-1.2" y1="1.7" x2="0.3" y2="1.7" width="0.1" layer="51"/>
-<wire x1="0.3" y1="1.7" x2="0.3" y2="0.2" width="0.1" layer="51"/>
-<wire x1="0.3" y1="0.2" x2="-1.2" y2="0.2" width="0.1" layer="51"/>
-<wire x1="-1.2" y1="0.2" x2="-1.2" y2="1.7" width="0.1" layer="51"/>
-<rectangle x1="-1.5" y1="-0.125" x2="-1.15" y2="0.125" layer="51"/>
-<rectangle x1="-1.5" y1="-0.625" x2="-1.15" y2="-0.375" layer="51"/>
-<rectangle x1="-1.5" y1="-1.125" x2="-1.15" y2="-0.875" layer="51"/>
-<rectangle x1="-1.5" y1="0.375" x2="-1.15" y2="0.625" layer="51"/>
-<rectangle x1="-1.5" y1="0.875" x2="-1.15" y2="1.125" layer="51"/>
-<smd name="2" x="-1.475" y="0.5" dx="0.75" dy="0.285" layer="1" cream="no"/>
-<rectangle x1="-1.855" y1="0.35" x2="-1.09" y2="0.65" layer="31" rot="R180"/>
-<smd name="1" x="-1.475" y="1" dx="0.75" dy="0.285" layer="1" cream="no"/>
-<rectangle x1="-1.855" y1="0.85" x2="-1.09" y2="1.15" layer="31" rot="R180"/>
-<smd name="4" x="-1.475" y="-0.5" dx="0.75" dy="0.285" layer="1" cream="no"/>
-<rectangle x1="-1.855" y1="-0.65" x2="-1.09" y2="-0.35" layer="31" rot="R180"/>
-<smd name="5" x="-1.475" y="-1" dx="0.75" dy="0.285" layer="1" cream="no"/>
-<rectangle x1="-1.855" y1="-1.15" x2="-1.09" y2="-0.85" layer="31" rot="R180"/>
-<smd name="8" x="1.475" y="0" dx="0.75" dy="0.285" layer="1" rot="R180" cream="no"/>
-<rectangle x1="1.09" y1="-0.15" x2="1.855" y2="0.15" layer="31"/>
-<rectangle x1="1.15" y1="-0.125" x2="1.5" y2="0.125" layer="51" rot="R180"/>
-<rectangle x1="1.15" y1="0.375" x2="1.5" y2="0.625" layer="51" rot="R180"/>
-<rectangle x1="1.15" y1="0.875" x2="1.5" y2="1.125" layer="51" rot="R180"/>
-<rectangle x1="1.15" y1="-0.625" x2="1.5" y2="-0.375" layer="51" rot="R180"/>
-<rectangle x1="1.15" y1="-1.125" x2="1.5" y2="-0.875" layer="51" rot="R180"/>
-<smd name="7" x="1.475" y="-0.5" dx="0.75" dy="0.285" layer="1" rot="R180" cream="no"/>
-<rectangle x1="1.09" y1="-0.65" x2="1.855" y2="-0.35" layer="31"/>
-<smd name="6" x="1.475" y="-1" dx="0.75" dy="0.285" layer="1" rot="R180" cream="no"/>
-<rectangle x1="1.09" y1="-1.15" x2="1.855" y2="-0.85" layer="31"/>
-<smd name="9" x="1.475" y="0.5" dx="0.75" dy="0.285" layer="1" rot="R180" cream="no"/>
-<rectangle x1="1.09" y1="0.35" x2="1.855" y2="0.65" layer="31"/>
-<smd name="10" x="1.475" y="1" dx="0.75" dy="0.285" layer="1" rot="R180" cream="no"/>
-<rectangle x1="1.09" y1="0.85" x2="1.855" y2="1.15" layer="31"/>
-<wire x1="1.2" y1="2.3" x2="1.8" y2="2.3" width="0.1524" layer="21"/>
-<wire x1="1.8" y1="2.3" x2="1.8" y2="1.7" width="0.1524" layer="21"/>
-<wire x1="-1.2" y1="-2.3" x2="-1.8" y2="-2.3" width="0.1524" layer="21"/>
-<wire x1="-1.8" y1="-2.3" x2="-1.8" y2="-1.7" width="0.1524" layer="21"/>
-<wire x1="1.8" y1="-1.7" x2="1.8" y2="-2.3" width="0.1524" layer="21"/>
-<wire x1="1.8" y1="-2.3" x2="1.2" y2="-2.3" width="0.1524" layer="21"/>
-<wire x1="-1.8" y1="1.7" x2="-1.8" y2="2.3" width="0.1524" layer="21"/>
-<wire x1="-1.8" y1="2.3" x2="-1.2" y2="2.3" width="0.1524" layer="21"/>
-</package>
-</packages>
-<symbols>
-<symbol name="STHS34PF80">
-<description>&lt;h3&gt;STHS34PF80 Infrared Sensor for Presence and Motion Detection&lt;/h3&gt;
-&lt;p&gt;The STHS34PF80 is an uncooled, factory calibrated, IR sensor with operating
-wavelength between 5 μm and 20 μm. Thanks to its exceptional sensitivity, the STHS34PF80 can detect human presence at a distance up to 6 meters without the need of a Fresnel lens.&lt;/p&gt;</description>
-<wire x1="-10.16" y1="-5.08" x2="10.16" y2="-5.08" width="0.254" layer="94"/>
-<wire x1="10.16" y1="-5.08" x2="10.16" y2="7.62" width="0.254" layer="94"/>
-<wire x1="10.16" y1="7.62" x2="-10.16" y2="7.62" width="0.254" layer="94"/>
-<wire x1="-10.16" y1="7.62" x2="-10.16" y2="-5.08" width="0.254" layer="94"/>
-<pin name="SDA/SDIO" x="12.7" y="5.08" visible="pin" length="short" rot="R180"/>
-<pin name="VDD" x="-12.7" y="5.08" visible="pin" length="short" direction="pwr"/>
-<pin name="GND" x="-12.7" y="-2.54" visible="pin" length="short" direction="pwr"/>
-<pin name="SCL/SPC" x="12.7" y="2.54" visible="pin" length="short" rot="R180"/>
-<pin name="!CS!" x="-12.7" y="2.54" visible="pin" length="short" direction="in"/>
-<pin name="INT" x="12.7" y="-2.54" visible="pin" length="short" direction="out" rot="R180"/>
-<text x="-10.16" y="7.874" size="1.778" layer="95" font="vector">&gt;Name</text>
-<text x="-10.16" y="-7.62" size="1.778" layer="96" font="vector">&gt;Value</text>
-</symbol>
-</symbols>
-<devicesets>
-<deviceset name="STHS34PF80" prefix="U">
-<description>&lt;h3&gt;Bosch BMP384 Pressure Sensor&lt;/h3&gt;
-&lt;p&gt;Senses pressure from 300 hPa to 1250 hPa, sends data out over I&lt;sup&gt;2&lt;/sup&gt;C or SPI&lt;/p&gt;</description>
-<gates>
-<gate name="U1" symbol="STHS34PF80" x="2.54" y="2.54"/>
-</gates>
-<devices>
-<device name="" package="OLGA-10L">
-<connects>
-<connect gate="U1" pin="!CS!" pad="3"/>
-<connect gate="U1" pin="GND" pad="2 7 8"/>
-<connect gate="U1" pin="INT" pad="10"/>
-<connect gate="U1" pin="SCL/SPC" pad="1"/>
-<connect gate="U1" pin="SDA/SDIO" pad="4"/>
-<connect gate="U1" pin="VDD" pad="6 9"/>
-</connects>
-<technologies>
-<technology name="">
-<attribute name="PROD_ID" value="IC-" constant="no"/>
-</technology>
-</technologies>
-</device>
-</devices>
-</deviceset>
-</devicesets>
-</library>
 <library name="SparkFun-LED">
 <description>&lt;h3&gt;SparkFun LEDs&lt;/h3&gt;
 This library contains discrete LEDs for illumination or indication, but no displays.
@@ -40726,6 +40619,113 @@ Standard 0402 sized pads with cathode pin indicator.
 </deviceset>
 </devicesets>
 </library>
+<library name="STHS34PF80">
+<packages>
+<package name="OLGA-10L">
+<description>&lt;h3&gt;LGA10L&lt;/h3&gt;
+&lt;p&gt;Specifications:
+&lt;ul&gt;&lt;li&gt;Pin count: 10&lt;/li&gt;
+&lt;li&gt;Pin pitch: .5mm&lt;/li&gt;
+&lt;li&gt;Area: 2.0 x 2.0 mm&lt;/li&gt;
+&lt;/ul&gt;&lt;/p&gt;
+&lt;p&gt;&lt;a href=https://media.digikey.com/pdf/Data%20Sheets/Bosch/bst-bmp384-ds003.pdf&gt;Datasheet referenced for footprint&lt;/a&gt;&lt;/p&gt;</description>
+<circle x="-2.118" y="1.458" radius="0.045253125" width="0.175" layer="21"/>
+<smd name="3" x="-1.475" y="0" dx="0.75" dy="0.285" layer="1" cream="no"/>
+<wire x1="-1.6" y1="2.1" x2="1.6" y2="2.1" width="0.05" layer="51"/>
+<wire x1="1.6" y1="2.1" x2="1.6" y2="-2.1" width="0.05" layer="51"/>
+<wire x1="1.6" y1="-2.1" x2="-1.6" y2="-2.1" width="0.05" layer="51"/>
+<wire x1="-1.6" y1="-2.1" x2="-1.6" y2="2.1" width="0.05" layer="51"/>
+<text x="0" y="2.778" size="0.6096" layer="25" font="vector" ratio="20" align="center">&gt;Name</text>
+<text x="0" y="-2.778" size="0.6096" layer="27" font="vector" ratio="20" align="center">&gt;Value</text>
+<wire x1="-1.2" y1="1.7" x2="0.3" y2="1.7" width="0.1" layer="51"/>
+<wire x1="0.3" y1="1.7" x2="0.3" y2="0.2" width="0.1" layer="51"/>
+<wire x1="0.3" y1="0.2" x2="-1.2" y2="0.2" width="0.1" layer="51"/>
+<wire x1="-1.2" y1="0.2" x2="-1.2" y2="1.7" width="0.1" layer="51"/>
+<rectangle x1="-1.5" y1="-0.125" x2="-1.15" y2="0.125" layer="51"/>
+<rectangle x1="-1.5" y1="-0.625" x2="-1.15" y2="-0.375" layer="51"/>
+<rectangle x1="-1.5" y1="-1.125" x2="-1.15" y2="-0.875" layer="51"/>
+<rectangle x1="-1.5" y1="0.375" x2="-1.15" y2="0.625" layer="51"/>
+<rectangle x1="-1.5" y1="0.875" x2="-1.15" y2="1.125" layer="51"/>
+<smd name="2" x="-1.475" y="0.5" dx="0.75" dy="0.285" layer="1" cream="no"/>
+<smd name="1" x="-1.475" y="1" dx="0.75" dy="0.285" layer="1" cream="no"/>
+<smd name="4" x="-1.475" y="-0.5" dx="0.75" dy="0.285" layer="1" cream="no"/>
+<smd name="5" x="-1.475" y="-1" dx="0.75" dy="0.285" layer="1" cream="no"/>
+<smd name="8" x="1.475" y="0" dx="0.75" dy="0.285" layer="1" rot="R180" cream="no"/>
+<rectangle x1="1.15" y1="-0.125" x2="1.5" y2="0.125" layer="51" rot="R180"/>
+<rectangle x1="1.15" y1="0.375" x2="1.5" y2="0.625" layer="51" rot="R180"/>
+<rectangle x1="1.15" y1="0.875" x2="1.5" y2="1.125" layer="51" rot="R180"/>
+<rectangle x1="1.15" y1="-0.625" x2="1.5" y2="-0.375" layer="51" rot="R180"/>
+<rectangle x1="1.15" y1="-1.125" x2="1.5" y2="-0.875" layer="51" rot="R180"/>
+<smd name="7" x="1.475" y="-0.5" dx="0.75" dy="0.285" layer="1" rot="R180" cream="no"/>
+<smd name="6" x="1.475" y="-1" dx="0.75" dy="0.285" layer="1" rot="R180" cream="no"/>
+<smd name="9" x="1.475" y="0.5" dx="0.75" dy="0.285" layer="1" rot="R180" cream="no"/>
+<smd name="10" x="1.475" y="1" dx="0.75" dy="0.285" layer="1" rot="R180" cream="no"/>
+<wire x1="1.2" y1="2.3" x2="1.8" y2="2.3" width="0.1524" layer="21"/>
+<wire x1="1.8" y1="2.3" x2="1.8" y2="1.7" width="0.1524" layer="21"/>
+<wire x1="-1.2" y1="-2.3" x2="-1.8" y2="-2.3" width="0.1524" layer="21"/>
+<wire x1="-1.8" y1="-2.3" x2="-1.8" y2="-1.7" width="0.1524" layer="21"/>
+<wire x1="1.8" y1="-1.7" x2="1.8" y2="-2.3" width="0.1524" layer="21"/>
+<wire x1="1.8" y1="-2.3" x2="1.2" y2="-2.3" width="0.1524" layer="21"/>
+<wire x1="-1.8" y1="1.7" x2="-1.8" y2="2.3" width="0.1524" layer="21"/>
+<wire x1="-1.8" y1="2.3" x2="-1.2" y2="2.3" width="0.1524" layer="21"/>
+<rectangle x1="-1.778" y1="0.889" x2="-1.178" y2="1.117" layer="31"/>
+<rectangle x1="-1.778" y1="0.381" x2="-1.178" y2="0.609" layer="31"/>
+<rectangle x1="-1.778" y1="-0.1143" x2="-1.178" y2="0.1137" layer="31"/>
+<rectangle x1="-1.778" y1="-0.6096" x2="-1.178" y2="-0.3816" layer="31"/>
+<rectangle x1="-1.7653" y1="-1.1176" x2="-1.1653" y2="-0.8896" layer="31"/>
+<rectangle x1="1.1684" y1="0.889" x2="1.7684" y2="1.117" layer="31"/>
+<rectangle x1="1.1811" y1="0.381" x2="1.7811" y2="0.609" layer="31"/>
+<rectangle x1="1.1811" y1="-0.1143" x2="1.7811" y2="0.1137" layer="31"/>
+<rectangle x1="1.1811" y1="-0.6223" x2="1.7811" y2="-0.3943" layer="31"/>
+<rectangle x1="1.1684" y1="-1.1176" x2="1.7684" y2="-0.8896" layer="31"/>
+</package>
+</packages>
+<symbols>
+<symbol name="STHS34PF80">
+<description>&lt;h3&gt;STHS34PF80 Infrared Sensor for Presence and Motion Detection&lt;/h3&gt;
+&lt;p&gt;The STHS34PF80 is an uncooled, factory calibrated, IR sensor with operating
+wavelength between 5 μm and 20 μm. Thanks to its exceptional sensitivity, the STHS34PF80 can detect human presence at a distance up to 6 meters without the need of a Fresnel lens.&lt;/p&gt;</description>
+<wire x1="-10.16" y1="-5.08" x2="10.16" y2="-5.08" width="0.254" layer="94"/>
+<wire x1="10.16" y1="-5.08" x2="10.16" y2="7.62" width="0.254" layer="94"/>
+<wire x1="10.16" y1="7.62" x2="-10.16" y2="7.62" width="0.254" layer="94"/>
+<wire x1="-10.16" y1="7.62" x2="-10.16" y2="-5.08" width="0.254" layer="94"/>
+<pin name="SDA/SDIO" x="12.7" y="5.08" visible="pin" length="short" rot="R180"/>
+<pin name="VDD" x="-12.7" y="5.08" visible="pin" length="short" direction="pwr"/>
+<pin name="GND" x="-12.7" y="-2.54" visible="pin" length="short" direction="pwr"/>
+<pin name="SCL/SPC" x="12.7" y="2.54" visible="pin" length="short" rot="R180"/>
+<pin name="!CS!" x="-12.7" y="2.54" visible="pin" length="short" direction="in"/>
+<pin name="INT" x="12.7" y="-2.54" visible="pin" length="short" direction="out" rot="R180"/>
+<text x="-10.16" y="7.874" size="1.778" layer="95" font="vector">&gt;Name</text>
+<text x="-10.16" y="-7.62" size="1.778" layer="96" font="vector">&gt;Value</text>
+</symbol>
+</symbols>
+<devicesets>
+<deviceset name="STHS34PF80" prefix="U">
+<description>&lt;h3&gt;Bosch BMP384 Pressure Sensor&lt;/h3&gt;
+&lt;p&gt;Senses pressure from 300 hPa to 1250 hPa, sends data out over I&lt;sup&gt;2&lt;/sup&gt;C or SPI&lt;/p&gt;</description>
+<gates>
+<gate name="U1" symbol="STHS34PF80" x="2.54" y="2.54"/>
+</gates>
+<devices>
+<device name="" package="OLGA-10L">
+<connects>
+<connect gate="U1" pin="!CS!" pad="3"/>
+<connect gate="U1" pin="GND" pad="2 7 8"/>
+<connect gate="U1" pin="INT" pad="10"/>
+<connect gate="U1" pin="SCL/SPC" pad="1"/>
+<connect gate="U1" pin="SDA/SDIO" pad="4"/>
+<connect gate="U1" pin="VDD" pad="6 9"/>
+</connects>
+<technologies>
+<technology name="">
+<attribute name="PROD_ID" value="IC-" constant="no"/>
+</technology>
+</technologies>
+</device>
+</devices>
+</deviceset>
+</devicesets>
+</library>
 </libraries>
 <attributes>
 </attributes>
@@ -40771,7 +40771,6 @@ Standard 0402 sized pads with cathode pin indicator.
 <part name="R4" library="SparkFun-Resistors" deviceset="10KOHM" device="-0603-1/10W-1%" value="10k"/>
 <part name="GND6" library="SparkFun-PowerSymbols" deviceset="GND" device=""/>
 <part name="SUPPLY8" library="SparkFun-PowerSymbols" deviceset="3.3V" device=""/>
-<part name="U2" library="STHS34PF80" deviceset="STHS34PF80" device=""/>
 <part name="JP10" library="SparkFun-Jumpers" deviceset="JUMPER-SMT_2_NC_TRACE" device="_SILK" package3d_urn="urn:adsk.eagle:package:39281/1"/>
 <part name="SUPPLY9" library="SparkFun-PowerSymbols" deviceset="3.3V" device=""/>
 <part name="R5" library="SparkFun-Resistors" deviceset="10KOHM" device="-0603-1/10W-1%" value="10k"/>
@@ -40785,6 +40784,9 @@ Standard 0402 sized pads with cathode pin indicator.
 <part name="LOGO4" library="SparkFun-Aesthetics" deviceset="SFE_LOGO_NAME" device="5_MM" value="SFE_LOGO_NAME5_MM"/>
 <part name="D2" library="SparkFun-LED" deviceset="LED-RED" device="_0603-KB" value="RED"/>
 <part name="R3" library="SparkFun-Resistors" deviceset="4.7KOHM" device="-0603-1/10W-1%" value="4.7k"/>
+<part name="U1" library="STHS34PF80" deviceset="STHS34PF80" device="">
+<attribute name="PROD_ID" value="IC-19626"/>
+</part>
 </parts>
 <sheets>
 <sheet>
@@ -40811,10 +40813,10 @@ Standard 0402 sized pads with cathode pin indicator.
 <text x="223.52" y="86.36" size="2.54" layer="94" font="vector" align="center">!CS! Pullup</text>
 <wire x1="198.12" y1="35.56" x2="198.12" y2="93.98" width="0.2032" layer="97" style="longdash"/>
 <wire x1="0" y1="35.56" x2="147.32" y2="35.56" width="0.2032" layer="97" style="longdash"/>
-<text x="176.784" y="112.268" size="2.032" layer="97" rot="R90">LED</text>
-<text x="227.838" y="135.382" size="2.032" layer="97" rot="R90">INT</text>
-<text x="118.364" y="141.986" size="2.032" layer="97">I2C</text>
-<text x="228.092" y="62.23" size="2.032" layer="97" rot="R90">!CS</text>
+<text x="176.784" y="112.268" size="2.032" layer="97" font="vector" rot="R90">LED</text>
+<text x="227.838" y="135.382" size="2.032" layer="97" font="vector" rot="R90">INT</text>
+<text x="118.364" y="141.986" size="2.032" layer="97" font="vector">I2C</text>
+<text x="228.092" y="62.23" size="2.032" layer="97" font="vector" rot="R90">!CS</text>
 </plain>
 <instances>
 <instance part="FRAME1" gate="G$1" x="0" y="0" smashed="yes"/>
@@ -40914,10 +40916,6 @@ Standard 0402 sized pads with cathode pin indicator.
 <instance part="SUPPLY8" gate="G$1" x="60.96" y="71.12" smashed="yes">
 <attribute name="VALUE" x="60.96" y="73.914" size="1.778" layer="96" font="vector" align="bottom-center"/>
 </instance>
-<instance part="U2" gate="U1" x="53.34" y="134.62" smashed="yes">
-<attribute name="NAME" x="43.18" y="142.494" size="1.778" layer="95" font="vector"/>
-<attribute name="VALUE" x="43.18" y="127" size="1.778" layer="96" font="vector"/>
-</instance>
 <instance part="JP10" gate="G$1" x="223.52" y="63.5" smashed="yes" rot="R90">
 <attribute name="NAME" x="220.472" y="63.5" size="1.778" layer="95" font="vector" rot="R90" align="center"/>
 <attribute name="VALUE" x="226.568" y="63.5" size="1.778" layer="96" font="vector" rot="R90" align="center" display="off"/>
@@ -40952,6 +40950,10 @@ Standard 0402 sized pads with cathode pin indicator.
 <attribute name="NAME" x="171.196" y="137.16" size="1.778" layer="95" font="vector" rot="R90" align="bottom-center"/>
 <attribute name="VALUE" x="174.244" y="137.16" size="1.778" layer="96" font="vector" rot="R90" align="top-center"/>
 </instance>
+<instance part="U1" gate="U1" x="53.34" y="134.62" smashed="yes">
+<attribute name="NAME" x="43.18" y="142.494" size="1.778" layer="95" font="vector"/>
+<attribute name="VALUE" x="43.18" y="127" size="1.778" layer="96" font="vector"/>
+</instance>
 </instances>
 <busses>
 </busses>
@@ -40978,7 +40980,7 @@ Standard 0402 sized pads with cathode pin indicator.
 <pinref part="GND4" gate="1" pin="GND"/>
 <wire x1="38.1" y1="132.08" x2="38.1" y2="129.54" width="0.1524" layer="91"/>
 <wire x1="40.64" y1="132.08" x2="38.1" y2="132.08" width="0.1524" layer="91"/>
-<pinref part="U2" gate="U1" pin="GND"/>
+<pinref part="U1" gate="U1" pin="GND"/>
 </segment>
 <segment>
 <pinref part="GND6" gate="1" pin="GND"/>
@@ -41024,7 +41026,7 @@ Standard 0402 sized pads with cathode pin indicator.
 <wire x1="38.1" y1="139.7" x2="38.1" y2="142.24" width="0.1524" layer="91"/>
 <pinref part="SUPPLY3" gate="G$1" pin="3.3V"/>
 <wire x1="38.1" y1="139.7" x2="40.64" y2="139.7" width="0.1524" layer="91"/>
-<pinref part="U2" gate="U1" pin="VDD"/>
+<pinref part="U1" gate="U1" pin="VDD"/>
 </segment>
 <segment>
 <wire x1="223.52" y1="142.24" x2="223.52" y2="144.78" width="0.1524" layer="91"/>
@@ -41056,57 +41058,57 @@ Standard 0402 sized pads with cathode pin indicator.
 <net name="SCL" class="0">
 <segment>
 <wire x1="109.22" y1="66.04" x2="114.3" y2="66.04" width="0.1524" layer="91"/>
-<label x="114.3" y="66.04" size="1.27" layer="95" xref="yes"/>
+<label x="114.3" y="66.04" size="1.27" layer="95" font="vector" xref="yes"/>
 <pinref part="J1" gate="G$1" pin="4"/>
 </segment>
 <segment>
 <wire x1="149.86" y1="66.04" x2="154.94" y2="66.04" width="0.1524" layer="91"/>
-<label x="154.94" y="66.04" size="1.27" layer="95" xref="yes"/>
+<label x="154.94" y="66.04" size="1.27" layer="95" font="vector" xref="yes"/>
 <pinref part="J2" gate="G$1" pin="4"/>
 </segment>
 <segment>
 <wire x1="66.04" y1="137.16" x2="68.58" y2="137.16" width="0.1524" layer="91"/>
-<label x="68.58" y="137.16" size="1.27" layer="95" xref="yes"/>
-<pinref part="U2" gate="U1" pin="SCL/SPC"/>
+<label x="68.58" y="137.16" size="1.27" layer="95" font="vector" xref="yes"/>
+<pinref part="U1" gate="U1" pin="SCL/SPC"/>
 </segment>
 <segment>
 <pinref part="R2" gate="G$1" pin="1"/>
 <wire x1="124.46" y1="127" x2="124.46" y2="124.46" width="0.1524" layer="91"/>
 <wire x1="124.46" y1="124.46" x2="127" y2="124.46" width="0.1524" layer="91"/>
-<label x="127" y="124.46" size="1.27" layer="95" xref="yes"/>
+<label x="127" y="124.46" size="1.27" layer="95" font="vector" xref="yes"/>
 </segment>
 <segment>
 <pinref part="J3" gate="JP1" pin="4"/>
 <wire x1="58.42" y1="63.5" x2="63.5" y2="63.5" width="0.1524" layer="91"/>
-<label x="63.5" y="63.5" size="1.27" layer="95" xref="yes"/>
+<label x="63.5" y="63.5" size="1.27" layer="95" font="vector" xref="yes"/>
 </segment>
 </net>
 <net name="SDA" class="0">
 <segment>
 <wire x1="109.22" y1="63.5" x2="114.3" y2="63.5" width="0.1524" layer="91"/>
-<label x="114.3" y="63.5" size="1.27" layer="95" xref="yes"/>
+<label x="114.3" y="63.5" size="1.27" layer="95" font="vector" xref="yes"/>
 <pinref part="J1" gate="G$1" pin="3"/>
 </segment>
 <segment>
 <wire x1="149.86" y1="63.5" x2="154.94" y2="63.5" width="0.1524" layer="91"/>
-<label x="154.94" y="63.5" size="1.27" layer="95" xref="yes"/>
+<label x="154.94" y="63.5" size="1.27" layer="95" font="vector" xref="yes"/>
 <pinref part="J2" gate="G$1" pin="3"/>
 </segment>
 <segment>
 <wire x1="66.04" y1="139.7" x2="68.58" y2="139.7" width="0.1524" layer="91"/>
-<label x="68.58" y="139.7" size="1.27" layer="95" xref="yes"/>
-<pinref part="U2" gate="U1" pin="SDA/SDIO"/>
+<label x="68.58" y="139.7" size="1.27" layer="95" font="vector" xref="yes"/>
+<pinref part="U1" gate="U1" pin="SDA/SDIO"/>
 </segment>
 <segment>
 <pinref part="R1" gate="G$1" pin="1"/>
 <wire x1="109.22" y1="127" x2="109.22" y2="124.46" width="0.1524" layer="91"/>
 <wire x1="109.22" y1="124.46" x2="111.76" y2="124.46" width="0.1524" layer="91"/>
-<label x="111.76" y="124.46" size="1.27" layer="95" xref="yes"/>
+<label x="111.76" y="124.46" size="1.27" layer="95" font="vector" xref="yes"/>
 </segment>
 <segment>
 <pinref part="J3" gate="JP1" pin="3"/>
 <wire x1="58.42" y1="60.96" x2="63.5" y2="60.96" width="0.1524" layer="91"/>
-<label x="63.5" y="60.96" size="1.27" layer="95" xref="yes"/>
+<label x="63.5" y="60.96" size="1.27" layer="95" font="vector" xref="yes"/>
 </segment>
 </net>
 <net name="N$2" class="0">
@@ -41135,37 +41137,37 @@ Standard 0402 sized pads with cathode pin indicator.
 <net name="INT" class="0">
 <segment>
 <wire x1="66.04" y1="132.08" x2="68.58" y2="132.08" width="0.1524" layer="91"/>
-<label x="68.58" y="132.08" size="1.27" layer="95" xref="yes"/>
-<pinref part="U2" gate="U1" pin="INT"/>
+<label x="68.58" y="132.08" size="1.27" layer="95" font="vector" xref="yes"/>
+<pinref part="U1" gate="U1" pin="INT"/>
 </segment>
 <segment>
 <pinref part="R4" gate="G$1" pin="1"/>
 <wire x1="223.52" y1="119.38" x2="223.52" y2="116.84" width="0.1524" layer="91"/>
 <wire x1="223.52" y1="116.84" x2="226.06" y2="116.84" width="0.1524" layer="91"/>
-<label x="226.06" y="116.84" size="1.27" layer="95" xref="yes"/>
+<label x="226.06" y="116.84" size="1.27" layer="95" font="vector" xref="yes"/>
 </segment>
 <segment>
 <pinref part="J3" gate="JP1" pin="6"/>
 <wire x1="58.42" y1="68.58" x2="63.5" y2="68.58" width="0.1524" layer="91"/>
-<label x="63.5" y="68.58" size="1.27" layer="95" xref="yes"/>
+<label x="63.5" y="68.58" size="1.27" layer="95" font="vector" xref="yes"/>
 </segment>
 </net>
 <net name="!CS!" class="0">
 <segment>
 <wire x1="40.64" y1="137.16" x2="38.1" y2="137.16" width="0.1524" layer="91"/>
-<label x="38.1" y="137.16" size="1.27" layer="95" rot="R180" xref="yes"/>
-<pinref part="U2" gate="U1" pin="!CS!"/>
+<label x="38.1" y="137.16" size="1.27" layer="95" font="vector" rot="R180" xref="yes"/>
+<pinref part="U1" gate="U1" pin="!CS!"/>
 </segment>
 <segment>
 <pinref part="J3" gate="JP1" pin="5"/>
 <wire x1="58.42" y1="66.04" x2="63.5" y2="66.04" width="0.1524" layer="91"/>
-<label x="63.5" y="66.04" size="1.27" layer="95" xref="yes"/>
+<label x="63.5" y="66.04" size="1.27" layer="95" font="vector" xref="yes"/>
 </segment>
 <segment>
 <pinref part="R5" gate="G$1" pin="1"/>
 <wire x1="223.52" y1="45.72" x2="223.52" y2="43.18" width="0.1524" layer="91"/>
 <wire x1="223.52" y1="43.18" x2="226.06" y2="43.18" width="0.1524" layer="91"/>
-<label x="226.06" y="43.18" size="1.27" layer="95" xref="yes"/>
+<label x="226.06" y="43.18" size="1.27" layer="95" font="vector" xref="yes"/>
 </segment>
 </net>
 <net name="N$5" class="0">
