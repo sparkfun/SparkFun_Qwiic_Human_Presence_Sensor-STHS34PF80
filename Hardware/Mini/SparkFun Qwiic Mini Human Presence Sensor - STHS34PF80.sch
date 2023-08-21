@@ -8,22 +8,22 @@
 </settings>
 <grid distance="0.1" unitdist="inch" unit="inch" style="lines" multiple="1" display="no" altdistance="0.01" altunitdist="inch" altunit="inch"/>
 <layers>
-<layer number="1" name="Top" color="4" fill="1" visible="yes" active="no"/>
-<layer number="2" name="Route2" color="16" fill="1" visible="yes" active="no"/>
-<layer number="15" name="Route15" color="23" fill="1" visible="yes" active="no"/>
-<layer number="16" name="Bottom" color="1" fill="1" visible="yes" active="no"/>
-<layer number="17" name="Pads" color="2" fill="1" visible="yes" active="no"/>
-<layer number="18" name="Vias" color="2" fill="1" visible="yes" active="no"/>
-<layer number="19" name="Unrouted" color="6" fill="1" visible="yes" active="no"/>
-<layer number="20" name="Dimension" color="24" fill="1" visible="yes" active="no"/>
-<layer number="21" name="tPlace" color="16" fill="1" visible="yes" active="no"/>
-<layer number="22" name="bPlace" color="14" fill="1" visible="yes" active="no"/>
-<layer number="23" name="tOrigins" color="15" fill="1" visible="yes" active="no"/>
-<layer number="24" name="bOrigins" color="15" fill="1" visible="yes" active="no"/>
-<layer number="25" name="tNames" color="7" fill="1" visible="yes" active="no"/>
-<layer number="26" name="bNames" color="7" fill="1" visible="yes" active="no"/>
-<layer number="27" name="tValues" color="7" fill="1" visible="yes" active="no"/>
-<layer number="28" name="bValues" color="7" fill="1" visible="yes" active="no"/>
+<layer number="1" name="Top" color="4" fill="1" visible="no" active="no"/>
+<layer number="2" name="Route2" color="16" fill="1" visible="no" active="no"/>
+<layer number="15" name="Route15" color="23" fill="1" visible="no" active="no"/>
+<layer number="16" name="Bottom" color="1" fill="1" visible="no" active="no"/>
+<layer number="17" name="Pads" color="2" fill="1" visible="no" active="no"/>
+<layer number="18" name="Vias" color="2" fill="1" visible="no" active="no"/>
+<layer number="19" name="Unrouted" color="6" fill="1" visible="no" active="no"/>
+<layer number="20" name="Dimension" color="24" fill="1" visible="no" active="no"/>
+<layer number="21" name="tPlace" color="16" fill="1" visible="no" active="no"/>
+<layer number="22" name="bPlace" color="14" fill="1" visible="no" active="no"/>
+<layer number="23" name="tOrigins" color="15" fill="1" visible="no" active="no"/>
+<layer number="24" name="bOrigins" color="15" fill="1" visible="no" active="no"/>
+<layer number="25" name="tNames" color="7" fill="1" visible="no" active="no"/>
+<layer number="26" name="bNames" color="7" fill="1" visible="no" active="no"/>
+<layer number="27" name="tValues" color="7" fill="1" visible="no" active="no"/>
+<layer number="28" name="bValues" color="7" fill="1" visible="no" active="no"/>
 <layer number="29" name="tStop" color="7" fill="3" visible="no" active="no"/>
 <layer number="30" name="bStop" color="7" fill="6" visible="no" active="no"/>
 <layer number="31" name="tCream" color="7" fill="4" visible="no" active="no"/>
@@ -32,8 +32,8 @@
 <layer number="34" name="bFinish" color="6" fill="6" visible="no" active="no"/>
 <layer number="35" name="tGlue" color="7" fill="4" visible="no" active="no"/>
 <layer number="36" name="bGlue" color="7" fill="5" visible="no" active="no"/>
-<layer number="37" name="tTest" color="7" fill="1" visible="yes" active="no"/>
-<layer number="38" name="bTest" color="7" fill="1" visible="yes" active="no"/>
+<layer number="37" name="tTest" color="7" fill="1" visible="no" active="no"/>
+<layer number="38" name="bTest" color="7" fill="1" visible="no" active="no"/>
 <layer number="39" name="tKeepout" color="4" fill="11" visible="no" active="no"/>
 <layer number="40" name="bKeepout" color="1" fill="11" visible="no" active="no"/>
 <layer number="41" name="tRestrict" color="4" fill="10" visible="no" active="no"/>
@@ -41,20 +41,20 @@
 <layer number="43" name="vRestrict" color="2" fill="10" visible="no" active="no"/>
 <layer number="44" name="Drills" color="7" fill="1" visible="no" active="no"/>
 <layer number="45" name="Holes" color="7" fill="1" visible="no" active="no"/>
-<layer number="46" name="Milling" color="3" fill="1" visible="yes" active="no"/>
-<layer number="47" name="Measures" color="7" fill="1" visible="yes" active="no"/>
-<layer number="48" name="Document" color="7" fill="1" visible="yes" active="no"/>
-<layer number="49" name="Reference" color="7" fill="1" visible="yes" active="no"/>
-<layer number="50" name="dxf" color="7" fill="1" visible="yes" active="no"/>
-<layer number="51" name="tDocu" color="6" fill="1" visible="yes" active="no"/>
-<layer number="52" name="bDocu" color="7" fill="1" visible="yes" active="no"/>
-<layer number="53" name="tGND_GNDA" color="7" fill="9" visible="yes" active="no"/>
-<layer number="54" name="bGND_GNDA" color="1" fill="9" visible="yes" active="no"/>
-<layer number="56" name="wert" color="7" fill="1" visible="yes" active="no"/>
-<layer number="57" name="tCAD" color="7" fill="1" visible="yes" active="no"/>
-<layer number="58" name="bCAD" color="7" fill="1" visible="yes" active="no"/>
-<layer number="59" name="tCarbon" color="7" fill="1" visible="yes" active="no"/>
-<layer number="60" name="bCarbon" color="7" fill="1" visible="yes" active="no"/>
+<layer number="46" name="Milling" color="3" fill="1" visible="no" active="no"/>
+<layer number="47" name="Measures" color="7" fill="1" visible="no" active="no"/>
+<layer number="48" name="Document" color="7" fill="1" visible="no" active="no"/>
+<layer number="49" name="Reference" color="7" fill="1" visible="no" active="no"/>
+<layer number="50" name="dxf" color="7" fill="1" visible="no" active="no"/>
+<layer number="51" name="tDocu" color="6" fill="1" visible="no" active="no"/>
+<layer number="52" name="bDocu" color="7" fill="1" visible="no" active="no"/>
+<layer number="53" name="tGND_GNDA" color="7" fill="9" visible="no" active="no"/>
+<layer number="54" name="bGND_GNDA" color="1" fill="9" visible="no" active="no"/>
+<layer number="56" name="wert" color="7" fill="1" visible="no" active="no"/>
+<layer number="57" name="tCAD" color="7" fill="1" visible="no" active="no"/>
+<layer number="58" name="bCAD" color="7" fill="1" visible="no" active="no"/>
+<layer number="59" name="tCarbon" color="7" fill="1" visible="no" active="no"/>
+<layer number="60" name="bCarbon" color="7" fill="1" visible="no" active="no"/>
 <layer number="88" name="SimResults" color="9" fill="1" visible="yes" active="yes"/>
 <layer number="89" name="SimProbes" color="9" fill="1" visible="yes" active="yes"/>
 <layer number="90" name="Modules" color="5" fill="1" visible="yes" active="yes"/>
@@ -37774,42 +37774,6 @@ You are welcome to use this library for commercial purposes. For attribution, we
 <wire x1="4" y1="-6" x2="-4" y2="-6" width="0.3048" layer="20"/>
 <wire x1="-4" y1="-6" x2="-4" y2="-10.16" width="0.3048" layer="20"/>
 </package>
-<package name="JST04_1MM_VERT">
-<description>&lt;h3&gt;Vertical Qwiic Connector&lt;/h3&gt;
-
-&lt;p&gt;Physical and Electrical Charactersistics&lt;/p&gt;
-&lt;ul&gt;
-&lt;li&gt;Voltage Rating: 50V&lt;/li&gt;
-&lt;li&gt;Current Rating 1.0A&lt;/li&gt;
-&lt;li&gt;Contact Resistance: 20 milliohms&lt;/li&gt;
-&lt;li&gt;ROHS Compliant&lt;/li&gt;
-&lt;li&gt;SMD Pitch: 1mm&lt;/li&gt;
-&lt;li&gt;Small pad size: .6mm x 1.55mm&lt;/li&gt;
-&lt;li&gt;Large pad size: 1.2mm x 2.0mm&lt;/li&gt;
-&lt;li&gt;&lt;/li&gt;
-&lt;li&gt;&lt;/li&gt;
-&lt;/ul&gt;</description>
-<text x="0.016" y="4.56633125" size="0.6096" layer="25">&gt;NAME</text>
-<text x="0.016" y="-1.29633125" size="0.6096" layer="27">&gt;VALUE</text>
-<smd name="1" x="-1.478" y="0.775" dx="0.6" dy="1.55" layer="1"/>
-<smd name="2" x="-0.478" y="0.775" dx="0.6" dy="1.55" layer="1"/>
-<smd name="3" x="0.522" y="0.775" dx="0.6" dy="1.55" layer="1"/>
-<smd name="4" x="1.522" y="0.775" dx="0.6" dy="1.55" layer="1"/>
-<smd name="NC1" x="-2.778" y="3.2" dx="1.2" dy="2" layer="1"/>
-<smd name="NC2" x="2.822" y="3.2" dx="1.2" dy="2" layer="1"/>
-<wire x1="1.912" y1="3.87" x2="-1.878" y2="3.87" width="0.2032" layer="21"/>
-<wire x1="-3.218" y1="1.33" x2="-3.218" y2="0.68" width="0.2032" layer="21"/>
-<wire x1="-3.218" y1="0.68" x2="-2.458" y2="0.68" width="0.2032" layer="21"/>
-<wire x1="3.272" y1="1.35" x2="3.272" y2="0.66" width="0.2032" layer="21"/>
-<wire x1="3.272" y1="0.66" x2="2.542" y2="0.66" width="0.2032" layer="21"/>
-<circle x="-1.948" y="-0.43" radius="0.2032" width="0" layer="21"/>
-<wire x1="-2.921" y1="3.556" x2="-3.302" y2="3.556" width="0.1" layer="51"/>
-<wire x1="-3.302" y1="3.556" x2="-3.302" y2="3.175" width="0.1" layer="51"/>
-<wire x1="-3.302" y1="3.175" x2="-2.921" y2="3.175" width="0.1" layer="51"/>
-<wire x1="2.945" y1="3.154" x2="3.326" y2="3.154" width="0.1" layer="51"/>
-<wire x1="3.326" y1="3.154" x2="3.326" y2="3.535" width="0.1" layer="51"/>
-<wire x1="3.326" y1="3.535" x2="2.945" y2="3.535" width="0.1" layer="51"/>
-</package>
 <package name="1X06">
 <description>&lt;h3&gt;Plated Through Hole - 6 Pin&lt;/h3&gt;
 &lt;p&gt;Specifications:
@@ -38698,6 +38662,41 @@ Alternate pin configuration
 <wire x1="6.35" y1="2.032" x2="5.969" y2="2.413" width="0.0762" layer="51"/>
 <wire x1="-7.8" y1="-2.311" x2="7.8" y2="-2.311" width="0.1524" layer="21"/>
 </package>
+<package name="JST04_1MM_VERT">
+<description>&lt;h3&gt;Vertical Qwiic Connector&lt;/h3&gt;
+
+&lt;p&gt;Physical and Electrical Charactersistics&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Voltage Rating: 50V&lt;/li&gt;
+&lt;li&gt;Current Rating 1.0A&lt;/li&gt;
+&lt;li&gt;Contact Resistance: 20 milliohms&lt;/li&gt;
+&lt;li&gt;ROHS Compliant&lt;/li&gt;
+&lt;li&gt;SMD Pitch: 1mm&lt;/li&gt;
+&lt;li&gt;Small pad size: .6mm x 1.55mm&lt;/li&gt;
+&lt;li&gt;Large pad size: 1.2mm x 2.0mm&lt;/li&gt;
+&lt;li&gt;&lt;/li&gt;
+&lt;li&gt;&lt;/li&gt;
+&lt;/ul&gt;</description>
+<text x="0" y="4.445" size="0.6096" layer="25" font="vector">&gt;NAME</text>
+<text x="0" y="2.54" size="0.6096" layer="27" font="vector">&gt;VALUE</text>
+<smd name="1" x="-1.5" y="0.775" dx="0.6" dy="1.55" layer="1"/>
+<smd name="2" x="-0.5" y="0.775" dx="0.6" dy="1.55" layer="1"/>
+<smd name="3" x="0.5" y="0.775" dx="0.6" dy="1.55" layer="1"/>
+<smd name="4" x="1.5" y="0.775" dx="0.6" dy="1.55" layer="1"/>
+<smd name="NC1" x="-2.8" y="3.2" dx="1.2" dy="2" layer="1"/>
+<smd name="NC2" x="2.8" y="3.2" dx="1.2" dy="2" layer="1"/>
+<wire x1="1.905" y1="3.937" x2="-1.905" y2="3.937" width="0.254" layer="21"/>
+<wire x1="-3.175" y1="1.397" x2="-3.175" y2="0.635" width="0.254" layer="21"/>
+<wire x1="-3.175" y1="0.635" x2="-2.413" y2="0.635" width="0.254" layer="21"/>
+<wire x1="3.175" y1="1.397" x2="3.175" y2="0.635" width="0.254" layer="21"/>
+<wire x1="3.175" y1="0.635" x2="2.413" y2="0.635" width="0.254" layer="21"/>
+<wire x1="-3" y1="3.5" x2="-3.3" y2="3.5" width="0.1" layer="51"/>
+<wire x1="-3.3" y1="3.5" x2="-3.3" y2="3" width="0.1" layer="51"/>
+<wire x1="-3.3" y1="3" x2="-3" y2="3" width="0.1" layer="51"/>
+<wire x1="3" y1="3" x2="3.3" y2="3" width="0.1" layer="51"/>
+<wire x1="3.3" y1="3" x2="3.3" y2="3.5" width="0.1" layer="51"/>
+<wire x1="3.3" y1="3.5" x2="3" y2="3.5" width="0.1" layer="51"/>
+</package>
 </packages>
 <symbols>
 <symbol name="I2C_STANDARD">
@@ -38753,15 +38752,15 @@ An SMD 1mm pitch JST connector makes it easy and quick (get it? Qwiic?) to conne
 
 We carry &lt;a href=”https://www.sparkfun.com/products/14204”&gt;200mm&lt;/a&gt;, &lt;a href=”https://www.sparkfun.com/products/14205”&gt;100mm&lt;/a&gt;, &lt;a href=”https://www.sparkfun.com/products/14206”&gt;50mm&lt;/a&gt;, and &lt;a href=”https://www.sparkfun.com/products/14207”&gt;breadboard friendly&lt;/a&gt; Qwiic cables. We also offer &lt;a href=”https://www.sparkfun.com/products/14323”&gt;10 pcs strips&lt;/a&gt; the SMD connectors.</description>
 <gates>
-<gate name="G$1" symbol="I2C_STANDARD" x="0" y="0"/>
+<gate name="J1" symbol="I2C_STANDARD" x="0" y="0"/>
 </gates>
 <devices>
 <device name="JS-1MM" package="JST04_1MM_RA">
 <connects>
-<connect gate="G$1" pin="1" pad="1"/>
-<connect gate="G$1" pin="2" pad="2"/>
-<connect gate="G$1" pin="3" pad="3"/>
-<connect gate="G$1" pin="4" pad="4"/>
+<connect gate="J1" pin="1" pad="1"/>
+<connect gate="J1" pin="2" pad="2"/>
+<connect gate="J1" pin="3" pad="3"/>
+<connect gate="J1" pin="4" pad="4"/>
 </connects>
 <technologies>
 <technology name="">
@@ -38772,10 +38771,10 @@ We carry &lt;a href=”https://www.sparkfun.com/products/14204”&gt;200mm&lt;/a
 </device>
 <device name="SR" package="JST04_1MM_RA_STRESSRELIEF">
 <connects>
-<connect gate="G$1" pin="1" pad="1"/>
-<connect gate="G$1" pin="2" pad="2"/>
-<connect gate="G$1" pin="3" pad="3"/>
-<connect gate="G$1" pin="4" pad="4"/>
+<connect gate="J1" pin="1" pad="1"/>
+<connect gate="J1" pin="2" pad="2"/>
+<connect gate="J1" pin="3" pad="3"/>
+<connect gate="J1" pin="4" pad="4"/>
 </connects>
 <technologies>
 <technology name=""/>
@@ -38783,10 +38782,10 @@ We carry &lt;a href=”https://www.sparkfun.com/products/14204”&gt;200mm&lt;/a
 </device>
 <device name="" package="JST04_1MM_VERT">
 <connects>
-<connect gate="G$1" pin="1" pad="1"/>
-<connect gate="G$1" pin="2" pad="2"/>
-<connect gate="G$1" pin="3" pad="3"/>
-<connect gate="G$1" pin="4" pad="4"/>
+<connect gate="J1" pin="1" pad="1"/>
+<connect gate="J1" pin="2" pad="2"/>
+<connect gate="J1" pin="3" pad="3"/>
+<connect gate="J1" pin="4" pad="4"/>
 </connects>
 <technologies>
 <technology name="">
@@ -40747,12 +40746,6 @@ wavelength between 5 μm and 20 μm. Thanks to its exceptional sensitivity, the 
 <part name="JP5" library="SparkFun-Aesthetics" deviceset="FIDUCIAL" device="UFIDUCIAL" value="FIDUCIALUFIDUCIAL"/>
 <part name="JP3" library="SparkFun-Hardware" deviceset="STAND-OFF" device=""/>
 <part name="JP4" library="SparkFun-Hardware" deviceset="STAND-OFF" device=""/>
-<part name="GND2" library="SparkFun-PowerSymbols" deviceset="GND" device=""/>
-<part name="GND3" library="SparkFun-PowerSymbols" deviceset="GND" device=""/>
-<part name="SUPPLY4" library="SparkFun-PowerSymbols" deviceset="3.3V" device=""/>
-<part name="SUPPLY5" library="SparkFun-PowerSymbols" deviceset="3.3V" device=""/>
-<part name="J1" library="SparkFun-Connectors" deviceset="QWIIC_CONNECTOR" device="JS-1MM" value="Qwiic"/>
-<part name="J2" library="SparkFun-Connectors" deviceset="QWIIC_CONNECTOR" device="JS-1MM" value="Qwiic"/>
 <part name="GND5" library="SparkFun-PowerSymbols" deviceset="GND" device=""/>
 <part name="JP7" library="SparkFun-Jumpers" deviceset="JUMPER-SMT_2_NC_TRACE" device="_SILK" package3d_urn="urn:adsk.eagle:package:39281/1"/>
 <part name="SUPPLY7" library="SparkFun-PowerSymbols" deviceset="3.3V" device=""/>
@@ -40787,6 +40780,12 @@ wavelength between 5 μm and 20 μm. Thanks to its exceptional sensitivity, the 
 <part name="U1" library="STHS34PF80" deviceset="STHS34PF80" device="">
 <attribute name="PROD_ID" value="IC-19626"/>
 </part>
+<part name="J1" library="SparkFun-Connectors" deviceset="QWIIC_CONNECTOR" device="" value="Vertical Qwiic Connector"/>
+<part name="J2" library="SparkFun-Connectors" deviceset="QWIIC_CONNECTOR" device="" value="Vertical Qwiic Connector"/>
+<part name="GND2" library="SparkFun-PowerSymbols" deviceset="GND" device=""/>
+<part name="SUPPLY4" library="SparkFun-PowerSymbols" deviceset="3.3V" device=""/>
+<part name="GND3" library="SparkFun-PowerSymbols" deviceset="GND" device=""/>
+<part name="SUPPLY5" library="SparkFun-PowerSymbols" deviceset="3.3V" device=""/>
 </parts>
 <sheets>
 <sheet>
@@ -40824,7 +40823,7 @@ wavelength between 5 μm and 20 μm. Thanks to its exceptional sensitivity, the 
 <attribute name="LAST_DATE_TIME" x="160.02" y="1.27" size="2.54" layer="94" font="vector"/>
 <attribute name="SHEET" x="233.68" y="1.27" size="2.54" layer="94" font="vector"/>
 <attribute name="DRAWING_NAME" x="160.274" y="17.78" size="2.286" layer="94" font="vector"/>
-<attribute name="DESIGNER" x="170.434" y="11.176" size="2.7432" layer="94" font="vector"/>
+<attribute name="DESIGNER" x="165.354" y="11.176" size="2.7432" layer="94" font="vector"/>
 <attribute name="REV" x="236.22" y="6.604" size="2.7432" layer="94" font="vector"/>
 </instance>
 <instance part="LOGO5" gate="G$1" x="124.46" y="0" smashed="yes"/>
@@ -40834,26 +40833,6 @@ wavelength between 5 μm and 20 μm. Thanks to its exceptional sensitivity, the 
 <instance part="JP5" gate="G$1" x="228.6" y="27.94" smashed="yes"/>
 <instance part="JP3" gate="G$1" x="238.76" y="30.48" smashed="yes"/>
 <instance part="JP4" gate="G$1" x="238.76" y="27.94" smashed="yes"/>
-<instance part="GND2" gate="1" x="111.76" y="53.34" smashed="yes">
-<attribute name="VALUE" x="111.76" y="53.086" size="1.778" layer="96" font="vector" align="top-center"/>
-</instance>
-<instance part="GND3" gate="1" x="152.4" y="53.34" smashed="yes">
-<attribute name="VALUE" x="152.4" y="53.086" size="1.778" layer="96" font="vector" align="top-center"/>
-</instance>
-<instance part="SUPPLY4" gate="G$1" x="111.76" y="68.58" smashed="yes">
-<attribute name="VALUE" x="111.76" y="71.374" size="1.778" layer="96" font="vector" align="bottom-center"/>
-</instance>
-<instance part="SUPPLY5" gate="G$1" x="152.4" y="68.58" smashed="yes">
-<attribute name="VALUE" x="152.4" y="71.374" size="1.778" layer="96" font="vector" align="bottom-center"/>
-</instance>
-<instance part="J1" gate="G$1" x="101.6" y="60.96" smashed="yes">
-<attribute name="VALUE" x="96.52" y="55.626" size="1.778" layer="96" font="vector" align="top-left"/>
-<attribute name="NAME" x="96.52" y="68.834" size="1.778" layer="95" font="vector"/>
-</instance>
-<instance part="J2" gate="G$1" x="142.24" y="60.96" smashed="yes">
-<attribute name="VALUE" x="137.16" y="55.626" size="1.778" layer="96" font="vector" align="top-left"/>
-<attribute name="NAME" x="137.16" y="68.834" size="1.778" layer="95" font="vector"/>
-</instance>
 <instance part="GND5" gate="1" x="172.72" y="104.14" smashed="yes">
 <attribute name="VALUE" x="172.72" y="103.886" size="1.778" layer="96" font="vector" align="top-center"/>
 </instance>
@@ -40954,23 +40933,31 @@ wavelength between 5 μm and 20 μm. Thanks to its exceptional sensitivity, the 
 <attribute name="NAME" x="43.18" y="142.494" size="1.778" layer="95" font="vector"/>
 <attribute name="VALUE" x="43.18" y="127" size="1.778" layer="96" font="vector"/>
 </instance>
+<instance part="J1" gate="J1" x="99.06" y="60.96" smashed="yes">
+<attribute name="VALUE" x="93.98" y="55.626" size="1.778" layer="96" font="vector" align="top-left"/>
+<attribute name="NAME" x="93.98" y="68.834" size="1.778" layer="95" font="vector"/>
+</instance>
+<instance part="J2" gate="J1" x="139.7" y="60.96" smashed="yes">
+<attribute name="VALUE" x="134.62" y="55.626" size="1.778" layer="96" font="vector" align="top-left"/>
+<attribute name="NAME" x="134.62" y="68.834" size="1.778" layer="95" font="vector"/>
+</instance>
+<instance part="GND2" gate="1" x="109.22" y="53.34" smashed="yes">
+<attribute name="VALUE" x="109.22" y="53.086" size="1.778" layer="96" font="vector" align="top-center"/>
+</instance>
+<instance part="SUPPLY4" gate="G$1" x="109.22" y="68.58" smashed="yes">
+<attribute name="VALUE" x="109.22" y="71.374" size="1.778" layer="96" font="vector" align="bottom-center"/>
+</instance>
+<instance part="GND3" gate="1" x="149.86" y="53.34" smashed="yes">
+<attribute name="VALUE" x="149.86" y="53.086" size="1.778" layer="96" font="vector" align="top-center"/>
+</instance>
+<instance part="SUPPLY5" gate="G$1" x="149.86" y="68.58" smashed="yes">
+<attribute name="VALUE" x="149.86" y="71.374" size="1.778" layer="96" font="vector" align="bottom-center"/>
+</instance>
 </instances>
 <busses>
 </busses>
 <nets>
 <net name="GND" class="0">
-<segment>
-<pinref part="GND2" gate="1" pin="GND"/>
-<wire x1="109.22" y1="58.42" x2="111.76" y2="58.42" width="0.1524" layer="91"/>
-<wire x1="111.76" y1="58.42" x2="111.76" y2="55.88" width="0.1524" layer="91"/>
-<pinref part="J1" gate="G$1" pin="1"/>
-</segment>
-<segment>
-<pinref part="GND3" gate="1" pin="GND"/>
-<wire x1="149.86" y1="58.42" x2="152.4" y2="58.42" width="0.1524" layer="91"/>
-<wire x1="152.4" y1="58.42" x2="152.4" y2="55.88" width="0.1524" layer="91"/>
-<pinref part="J2" gate="G$1" pin="1"/>
-</segment>
 <segment>
 <pinref part="GND1" gate="1" pin="GND"/>
 <wire x1="15.24" y1="129.54" x2="15.24" y2="127" width="0.1524" layer="91"/>
@@ -40998,20 +40985,20 @@ wavelength between 5 μm and 20 μm. Thanks to its exceptional sensitivity, the 
 <wire x1="25.4" y1="129.54" x2="25.4" y2="127" width="0.1524" layer="91"/>
 <pinref part="C2" gate="G$1" pin="2"/>
 </segment>
+<segment>
+<pinref part="GND2" gate="1" pin="GND"/>
+<wire x1="106.68" y1="58.42" x2="109.22" y2="58.42" width="0.1524" layer="91"/>
+<wire x1="109.22" y1="58.42" x2="109.22" y2="55.88" width="0.1524" layer="91"/>
+<pinref part="J1" gate="J1" pin="1"/>
+</segment>
+<segment>
+<pinref part="GND3" gate="1" pin="GND"/>
+<wire x1="147.32" y1="58.42" x2="149.86" y2="58.42" width="0.1524" layer="91"/>
+<wire x1="149.86" y1="58.42" x2="149.86" y2="55.88" width="0.1524" layer="91"/>
+<pinref part="J2" gate="J1" pin="1"/>
+</segment>
 </net>
 <net name="3.3V" class="0">
-<segment>
-<pinref part="SUPPLY4" gate="G$1" pin="3.3V"/>
-<wire x1="109.22" y1="60.96" x2="111.76" y2="60.96" width="0.1524" layer="91"/>
-<wire x1="111.76" y1="60.96" x2="111.76" y2="68.58" width="0.1524" layer="91"/>
-<pinref part="J1" gate="G$1" pin="2"/>
-</segment>
-<segment>
-<pinref part="SUPPLY5" gate="G$1" pin="3.3V"/>
-<wire x1="149.86" y1="60.96" x2="152.4" y2="60.96" width="0.1524" layer="91"/>
-<wire x1="152.4" y1="60.96" x2="152.4" y2="68.58" width="0.1524" layer="91"/>
-<pinref part="J2" gate="G$1" pin="2"/>
-</segment>
 <segment>
 <wire x1="116.84" y1="144.78" x2="116.84" y2="147.32" width="0.1524" layer="91"/>
 <pinref part="JP8" gate="G$1" pin="2"/>
@@ -41054,18 +41041,20 @@ wavelength between 5 μm and 20 μm. Thanks to its exceptional sensitivity, the 
 <pinref part="SUPPLY10" gate="G$1" pin="3.3V"/>
 <pinref part="C2" gate="G$1" pin="1"/>
 </segment>
+<segment>
+<pinref part="SUPPLY4" gate="G$1" pin="3.3V"/>
+<wire x1="106.68" y1="60.96" x2="109.22" y2="60.96" width="0.1524" layer="91"/>
+<wire x1="109.22" y1="60.96" x2="109.22" y2="68.58" width="0.1524" layer="91"/>
+<pinref part="J1" gate="J1" pin="2"/>
+</segment>
+<segment>
+<pinref part="SUPPLY5" gate="G$1" pin="3.3V"/>
+<wire x1="147.32" y1="60.96" x2="149.86" y2="60.96" width="0.1524" layer="91"/>
+<wire x1="149.86" y1="60.96" x2="149.86" y2="68.58" width="0.1524" layer="91"/>
+<pinref part="J2" gate="J1" pin="2"/>
+</segment>
 </net>
 <net name="SCL" class="0">
-<segment>
-<wire x1="109.22" y1="66.04" x2="114.3" y2="66.04" width="0.1524" layer="91"/>
-<label x="114.3" y="66.04" size="1.27" layer="95" font="vector" xref="yes"/>
-<pinref part="J1" gate="G$1" pin="4"/>
-</segment>
-<segment>
-<wire x1="149.86" y1="66.04" x2="154.94" y2="66.04" width="0.1524" layer="91"/>
-<label x="154.94" y="66.04" size="1.27" layer="95" font="vector" xref="yes"/>
-<pinref part="J2" gate="G$1" pin="4"/>
-</segment>
 <segment>
 <wire x1="66.04" y1="137.16" x2="68.58" y2="137.16" width="0.1524" layer="91"/>
 <label x="68.58" y="137.16" size="1.27" layer="95" font="vector" xref="yes"/>
@@ -41082,18 +41071,18 @@ wavelength between 5 μm and 20 μm. Thanks to its exceptional sensitivity, the 
 <wire x1="58.42" y1="63.5" x2="63.5" y2="63.5" width="0.1524" layer="91"/>
 <label x="63.5" y="63.5" size="1.27" layer="95" font="vector" xref="yes"/>
 </segment>
+<segment>
+<wire x1="106.68" y1="66.04" x2="111.76" y2="66.04" width="0.1524" layer="91"/>
+<label x="111.76" y="66.04" size="1.27" layer="95" font="vector" xref="yes"/>
+<pinref part="J1" gate="J1" pin="4"/>
+</segment>
+<segment>
+<wire x1="147.32" y1="66.04" x2="152.4" y2="66.04" width="0.1524" layer="91"/>
+<label x="152.4" y="66.04" size="1.27" layer="95" font="vector" xref="yes"/>
+<pinref part="J2" gate="J1" pin="4"/>
+</segment>
 </net>
 <net name="SDA" class="0">
-<segment>
-<wire x1="109.22" y1="63.5" x2="114.3" y2="63.5" width="0.1524" layer="91"/>
-<label x="114.3" y="63.5" size="1.27" layer="95" font="vector" xref="yes"/>
-<pinref part="J1" gate="G$1" pin="3"/>
-</segment>
-<segment>
-<wire x1="149.86" y1="63.5" x2="154.94" y2="63.5" width="0.1524" layer="91"/>
-<label x="154.94" y="63.5" size="1.27" layer="95" font="vector" xref="yes"/>
-<pinref part="J2" gate="G$1" pin="3"/>
-</segment>
 <segment>
 <wire x1="66.04" y1="139.7" x2="68.58" y2="139.7" width="0.1524" layer="91"/>
 <label x="68.58" y="139.7" size="1.27" layer="95" font="vector" xref="yes"/>
@@ -41109,6 +41098,16 @@ wavelength between 5 μm and 20 μm. Thanks to its exceptional sensitivity, the 
 <pinref part="J3" gate="JP1" pin="3"/>
 <wire x1="58.42" y1="60.96" x2="63.5" y2="60.96" width="0.1524" layer="91"/>
 <label x="63.5" y="60.96" size="1.27" layer="95" font="vector" xref="yes"/>
+</segment>
+<segment>
+<wire x1="106.68" y1="63.5" x2="111.76" y2="63.5" width="0.1524" layer="91"/>
+<label x="111.76" y="63.5" size="1.27" layer="95" font="vector" xref="yes"/>
+<pinref part="J1" gate="J1" pin="3"/>
+</segment>
+<segment>
+<wire x1="147.32" y1="63.5" x2="152.4" y2="63.5" width="0.1524" layer="91"/>
+<label x="152.4" y="63.5" size="1.27" layer="95" font="vector" xref="yes"/>
+<pinref part="J2" gate="J1" pin="3"/>
 </segment>
 </net>
 <net name="N$2" class="0">
