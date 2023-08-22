@@ -40816,6 +40816,7 @@ wavelength between 5 μm and 20 μm. Thanks to its exceptional sensitivity, the 
 <text x="227.838" y="135.382" size="2.032" layer="97" font="vector" rot="R90">INT</text>
 <text x="118.364" y="141.986" size="2.032" layer="97" font="vector">I2C</text>
 <text x="228.092" y="62.23" size="2.032" layer="97" font="vector" rot="R90">!CS</text>
+<text x="53.34" y="119.38" size="1.27" layer="97" font="vector" align="center">I2C Address = 0x5A</text>
 </plain>
 <instances>
 <instance part="FRAME1" gate="G$1" x="0" y="0" smashed="yes"/>
