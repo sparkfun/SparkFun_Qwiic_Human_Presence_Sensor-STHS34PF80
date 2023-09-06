@@ -3,12 +3,14 @@
 <eagle version="9.6.2">
 <drawing>
 <settings>
-<setting alwaysvectorfont="yes"/>
+<setting alwaysvectorfont="no"/>
 <setting verticaltext="up"/>
 </settings>
 <grid distance="0.05" unitdist="inch" unit="inch" style="lines" multiple="1" display="yes" altdistance="0.005" altunitdist="inch" altunit="inch"/>
 <layers>
 <layer number="1" name="Top" color="4" fill="1" visible="yes" active="yes"/>
+<layer number="2" name="Route2" color="16" fill="1" visible="no" active="no"/>
+<layer number="15" name="Route15" color="23" fill="1" visible="no" active="no"/>
 <layer number="16" name="Bottom" color="1" fill="1" visible="yes" active="yes"/>
 <layer number="17" name="Pads" color="2" fill="1" visible="yes" active="yes"/>
 <layer number="18" name="Vias" color="2" fill="1" visible="yes" active="yes"/>
@@ -507,29 +509,29 @@
 <dimension x1="103.632" y1="103.632" x2="103.632" y2="116.332" x3="98.552" y3="109.982" textsize="1.778" textratio="15" layer="47" unit="inch"/>
 <dimension x1="103.632" y1="103.632" x2="103.632" y2="129.032" x3="94.742" y3="116.332" textsize="1.778" textratio="15" layer="47" unit="inch"/>
 <wire x1="-0.254" y1="-6.858" x2="-0.254" y2="136.398" width="0.381" layer="46"/>
-<text x="-0.254" y="138.684" size="1.778" layer="46" font="vector" ratio="15" align="center">v-score</text>
+<text x="-0.254" y="138.684" size="1.778" layer="46" ratio="15" align="center">v-score</text>
 <wire x1="25.654" y1="-6.858" x2="25.654" y2="136.398" width="0.381" layer="46"/>
-<text x="25.654" y="138.684" size="1.778" layer="46" font="vector" ratio="15" align="center">v-score</text>
+<text x="25.654" y="138.684" size="1.778" layer="46" ratio="15" align="center">v-score</text>
 <wire x1="51.562" y1="-6.858" x2="51.562" y2="136.398" width="0.381" layer="46"/>
-<text x="51.562" y="138.684" size="1.778" layer="46" font="vector" ratio="15" align="center">v-score</text>
+<text x="51.562" y="138.684" size="1.778" layer="46" ratio="15" align="center">v-score</text>
 <wire x1="77.47" y1="-6.858" x2="77.47" y2="136.398" width="0.381" layer="46"/>
-<text x="77.47" y="138.684" size="1.778" layer="46" font="vector" ratio="15" align="center">v-score</text>
+<text x="77.47" y="138.684" size="1.778" layer="46" ratio="15" align="center">v-score</text>
 <wire x1="103.378" y1="-6.858" x2="103.378" y2="136.398" width="0.381" layer="46"/>
-<text x="103.378" y="138.684" size="1.778" layer="46" font="vector" ratio="15" align="center">v-score</text>
+<text x="103.378" y="138.684" size="1.778" layer="46" ratio="15" align="center">v-score</text>
 <wire x1="129.286" y1="-6.858" x2="129.286" y2="136.398" width="0.381" layer="46"/>
-<text x="129.286" y="138.684" size="1.778" layer="46" font="vector" ratio="15" align="center">v-score</text>
+<text x="129.286" y="138.684" size="1.778" layer="46" ratio="15" align="center">v-score</text>
 <wire x1="-6.858" y1="-0.254" x2="142.24" y2="-0.254" width="0.381" layer="46"/>
-<text x="149.86" y="-0.254" size="1.778" layer="46" font="vector" ratio="15" align="center">v-score</text>
+<text x="149.86" y="-0.254" size="1.778" layer="46" ratio="15" align="center">v-score</text>
 <wire x1="-6.858" y1="25.654" x2="142.24" y2="25.654" width="0.381" layer="46"/>
-<text x="149.86" y="25.654" size="1.778" layer="46" font="vector" ratio="15" align="center">v-score</text>
+<text x="149.86" y="25.654" size="1.778" layer="46" ratio="15" align="center">v-score</text>
 <wire x1="-6.858" y1="51.562" x2="142.24" y2="51.562" width="0.381" layer="46"/>
-<text x="149.86" y="51.562" size="1.778" layer="46" font="vector" ratio="15" align="center">v-score</text>
+<text x="149.86" y="51.562" size="1.778" layer="46" ratio="15" align="center">v-score</text>
 <wire x1="-6.858" y1="77.47" x2="142.24" y2="77.47" width="0.381" layer="46"/>
-<text x="149.86" y="77.47" size="1.778" layer="46" font="vector" ratio="15" align="center">v-score</text>
+<text x="149.86" y="77.47" size="1.778" layer="46" ratio="15" align="center">v-score</text>
 <wire x1="-6.858" y1="103.378" x2="142.24" y2="103.378" width="0.381" layer="46"/>
-<text x="149.86" y="103.378" size="1.778" layer="46" font="vector" ratio="15" align="center">v-score</text>
+<text x="149.86" y="103.378" size="1.778" layer="46" ratio="15" align="center">v-score</text>
 <wire x1="-6.858" y1="129.286" x2="142.24" y2="129.286" width="0.381" layer="46"/>
-<text x="149.86" y="129.286" size="1.778" layer="46" font="vector" ratio="15" align="center">v-score</text>
+<text x="149.86" y="129.286" size="1.778" layer="46" ratio="15" align="center">v-score</text>
 <wire x1="-6.858" y1="-0.508" x2="135.89" y2="-0.508" width="0.254" layer="20"/>
 <wire x1="135.89" y1="-0.508" x2="135.89" y2="-6.858" width="0.254" layer="20"/>
 <wire x1="135.89" y1="-6.858" x2="-6.858" y2="-6.858" width="0.254" layer="20"/>
@@ -5755,7 +5757,7 @@ You are welcome to use this library for commercial purposes. For attribution, we
 <library name="STHS34PF80">
 <packages>
 <package name="OLGA-10L">
-<description>&lt;h3&gt;LGA10&lt;/h3&gt;
+<description>&lt;h3&gt;LGA10L&lt;/h3&gt;
 &lt;p&gt;Specifications:
 &lt;ul&gt;&lt;li&gt;Pin count: 10&lt;/li&gt;
 &lt;li&gt;Pin pitch: .5mm&lt;/li&gt;
@@ -5770,7 +5772,6 @@ You are welcome to use this library for commercial purposes. For attribution, we
 <wire x1="-1.6" y1="-2.1" x2="-1.6" y2="2.1" width="0.05" layer="51"/>
 <text x="0" y="2.778" size="0.6096" layer="25" font="vector" ratio="20" align="center">&gt;Name</text>
 <text x="0" y="-2.778" size="0.6096" layer="27" font="vector" ratio="20" align="center">&gt;Value</text>
-<rectangle x1="-1.855" y1="-0.15" x2="-1.09" y2="0.15" layer="31" rot="R180"/>
 <wire x1="-1.2" y1="1.7" x2="0.3" y2="1.7" width="0.1" layer="51"/>
 <wire x1="0.3" y1="1.7" x2="0.3" y2="0.2" width="0.1" layer="51"/>
 <wire x1="0.3" y1="0.2" x2="-1.2" y2="0.2" width="0.1" layer="51"/>
@@ -5781,28 +5782,19 @@ You are welcome to use this library for commercial purposes. For attribution, we
 <rectangle x1="-1.5" y1="0.375" x2="-1.15" y2="0.625" layer="51"/>
 <rectangle x1="-1.5" y1="0.875" x2="-1.15" y2="1.125" layer="51"/>
 <smd name="2" x="-1.475" y="0.5" dx="0.75" dy="0.285" layer="1" cream="no"/>
-<rectangle x1="-1.855" y1="0.35" x2="-1.09" y2="0.65" layer="31" rot="R180"/>
 <smd name="1" x="-1.475" y="1" dx="0.75" dy="0.285" layer="1" cream="no"/>
-<rectangle x1="-1.855" y1="0.85" x2="-1.09" y2="1.15" layer="31" rot="R180"/>
 <smd name="4" x="-1.475" y="-0.5" dx="0.75" dy="0.285" layer="1" cream="no"/>
-<rectangle x1="-1.855" y1="-0.65" x2="-1.09" y2="-0.35" layer="31" rot="R180"/>
 <smd name="5" x="-1.475" y="-1" dx="0.75" dy="0.285" layer="1" cream="no"/>
-<rectangle x1="-1.855" y1="-1.15" x2="-1.09" y2="-0.85" layer="31" rot="R180"/>
 <smd name="8" x="1.475" y="0" dx="0.75" dy="0.285" layer="1" rot="R180" cream="no"/>
-<rectangle x1="1.09" y1="-0.15" x2="1.855" y2="0.15" layer="31"/>
 <rectangle x1="1.15" y1="-0.125" x2="1.5" y2="0.125" layer="51" rot="R180"/>
 <rectangle x1="1.15" y1="0.375" x2="1.5" y2="0.625" layer="51" rot="R180"/>
 <rectangle x1="1.15" y1="0.875" x2="1.5" y2="1.125" layer="51" rot="R180"/>
 <rectangle x1="1.15" y1="-0.625" x2="1.5" y2="-0.375" layer="51" rot="R180"/>
 <rectangle x1="1.15" y1="-1.125" x2="1.5" y2="-0.875" layer="51" rot="R180"/>
 <smd name="7" x="1.475" y="-0.5" dx="0.75" dy="0.285" layer="1" rot="R180" cream="no"/>
-<rectangle x1="1.09" y1="-0.65" x2="1.855" y2="-0.35" layer="31"/>
 <smd name="6" x="1.475" y="-1" dx="0.75" dy="0.285" layer="1" rot="R180" cream="no"/>
-<rectangle x1="1.09" y1="-1.15" x2="1.855" y2="-0.85" layer="31"/>
 <smd name="9" x="1.475" y="0.5" dx="0.75" dy="0.285" layer="1" rot="R180" cream="no"/>
-<rectangle x1="1.09" y1="0.35" x2="1.855" y2="0.65" layer="31"/>
 <smd name="10" x="1.475" y="1" dx="0.75" dy="0.285" layer="1" rot="R180" cream="no"/>
-<rectangle x1="1.09" y1="0.85" x2="1.855" y2="1.15" layer="31"/>
 <wire x1="1.2" y1="2.3" x2="1.8" y2="2.3" width="0.1524" layer="21"/>
 <wire x1="1.8" y1="2.3" x2="1.8" y2="1.7" width="0.1524" layer="21"/>
 <wire x1="-1.2" y1="-2.3" x2="-1.8" y2="-2.3" width="0.1524" layer="21"/>
@@ -5811,6 +5803,16 @@ You are welcome to use this library for commercial purposes. For attribution, we
 <wire x1="1.8" y1="-2.3" x2="1.2" y2="-2.3" width="0.1524" layer="21"/>
 <wire x1="-1.8" y1="1.7" x2="-1.8" y2="2.3" width="0.1524" layer="21"/>
 <wire x1="-1.8" y1="2.3" x2="-1.2" y2="2.3" width="0.1524" layer="21"/>
+<rectangle x1="-1.778" y1="0.889" x2="-1.178" y2="1.117" layer="31"/>
+<rectangle x1="-1.778" y1="0.381" x2="-1.178" y2="0.609" layer="31"/>
+<rectangle x1="-1.778" y1="-0.1143" x2="-1.178" y2="0.1137" layer="31"/>
+<rectangle x1="-1.778" y1="-0.6096" x2="-1.178" y2="-0.3816" layer="31"/>
+<rectangle x1="-1.7653" y1="-1.1176" x2="-1.1653" y2="-0.8896" layer="31"/>
+<rectangle x1="1.1684" y1="0.889" x2="1.7684" y2="1.117" layer="31"/>
+<rectangle x1="1.1811" y1="0.381" x2="1.7811" y2="0.609" layer="31"/>
+<rectangle x1="1.1811" y1="-0.1143" x2="1.7811" y2="0.1137" layer="31"/>
+<rectangle x1="1.1811" y1="-0.6223" x2="1.7811" y2="-0.3943" layer="31"/>
+<rectangle x1="1.1684" y1="-1.1176" x2="1.7684" y2="-0.8896" layer="31"/>
 </package>
 </packages>
 </library>
@@ -6073,7 +6075,6 @@ These are the minimums &lt;a href=&quot;https://jlcpcb.com/capabilities/Capabili
 </element>
 <element name="J3" library="SparkFun-Connectors" package="1X06_NO_SILK" value="" x="6.35" y="1.27" smashed="yes">
 <attribute name="NAME" x="5.08" y="2.667" size="0.6096" layer="25" font="vector" ratio="20"/>
-<attribute name="PROD_ID" value="CONN-08437" x="6.35" y="1.27" size="1.778" layer="27" font="vector" ratio="15" display="off"/>
 <attribute name="VALUE" x="5.08" y="-0.762" size="0.6096" layer="27" font="vector" ratio="20"/>
 </element>
 <element name="R4" library="SparkFun-Resistors" package="0603" value="10k" x="17.78" y="16.51" smashed="yes">
@@ -6126,7 +6127,7 @@ These are the minimums &lt;a href=&quot;https://jlcpcb.com/capabilities/Capabili
 <element name="U$1" library="output" package="#I�C#0" value="" x="17.653" y="8.89" smashed="yes" rot="MR0"/>
 <element name="U$16" library="output" package="#GND#4" value="" x="6.35" y="6.223" smashed="yes" rot="R270"/>
 <element name="U$19" library="output" package="#3V3#0" value="" x="8.89" y="6.096" smashed="yes" rot="R270"/>
-<element name="LOGO6" library="SparkFun-Aesthetics" package="SFE_LOGO_FLAME_.1" value="SFE_LOGO_FLAME.1_INCH" x="23.368" y="7.493" smashed="yes"/>
+<element name="LOGO6" library="SparkFun-Aesthetics" package="SFE_LOGO_FLAME_.1" value="SFE_LOGO_FLAME.1_INCH" x="22.86" y="7.62" smashed="yes"/>
 <element name="U$10" library="output" package="##INT##0" value="" x="21.971" y="16.51" smashed="yes" rot="MR0"/>
 <element name="U$11" library="output" package="#SDA#0" value="" x="11.43" y="6.223" smashed="yes" rot="R270"/>
 <element name="U$13" library="output" package="##CS##1" value="" x="16.51" y="5.08" smashed="yes" rot="R270"/>
@@ -6197,7 +6198,6 @@ These are the minimums &lt;a href=&quot;https://jlcpcb.com/capabilities/Capabili
 </element>
 <element name="J6" library="SparkFun-Connectors" package="1X06_NO_SILK" value="" x="32.258" y="1.27" smashed="yes">
 <attribute name="NAME" x="30.988" y="2.667" size="0.6096" layer="25" font="vector" ratio="20"/>
-<attribute name="PROD_ID" value="CONN-08437" x="32.258" y="1.27" size="1.778" layer="27" font="vector" ratio="15" display="off"/>
 <attribute name="VALUE" x="30.988" y="-0.762" size="0.6096" layer="27" font="vector" ratio="20"/>
 </element>
 <element name="R9" library="SparkFun-Resistors" package="0603" value="10k" x="43.688" y="16.51" smashed="yes">
@@ -6250,7 +6250,7 @@ These are the minimums &lt;a href=&quot;https://jlcpcb.com/capabilities/Capabili
 <element name="U$38" library="output" package="#I�C#0" value="" x="43.561" y="8.89" smashed="yes" rot="MR0"/>
 <element name="U$39" library="output" package="#GND#4" value="" x="32.258" y="6.223" smashed="yes" rot="R270"/>
 <element name="U$40" library="output" package="#3V3#0" value="" x="34.798" y="6.096" smashed="yes" rot="R270"/>
-<element name="LOGO9" library="SparkFun-Aesthetics" package="SFE_LOGO_FLAME_.1" value="SFE_LOGO_FLAME.1_INCH" x="49.276" y="7.493" smashed="yes"/>
+<element name="LOGO9" library="SparkFun-Aesthetics" package="SFE_LOGO_FLAME_.1" value="SFE_LOGO_FLAME.1_INCH" x="48.768" y="7.62" smashed="yes"/>
 <element name="U$41" library="output" package="##INT##0" value="" x="47.879" y="16.51" smashed="yes" rot="MR0"/>
 <element name="U$42" library="output" package="#SDA#0" value="" x="37.338" y="6.223" smashed="yes" rot="R270"/>
 <element name="U$43" library="output" package="##CS##1" value="" x="42.418" y="5.08" smashed="yes" rot="R270"/>
@@ -6321,7 +6321,6 @@ These are the minimums &lt;a href=&quot;https://jlcpcb.com/capabilities/Capabili
 </element>
 <element name="J9" library="SparkFun-Connectors" package="1X06_NO_SILK" value="" x="58.166" y="1.27" smashed="yes">
 <attribute name="NAME" x="56.896" y="2.667" size="0.6096" layer="25" font="vector" ratio="20"/>
-<attribute name="PROD_ID" value="CONN-08437" x="58.166" y="1.27" size="1.778" layer="27" font="vector" ratio="15" display="off"/>
 <attribute name="VALUE" x="56.896" y="-0.762" size="0.6096" layer="27" font="vector" ratio="20"/>
 </element>
 <element name="R14" library="SparkFun-Resistors" package="0603" value="10k" x="69.596" y="16.51" smashed="yes">
@@ -6374,7 +6373,7 @@ These are the minimums &lt;a href=&quot;https://jlcpcb.com/capabilities/Capabili
 <element name="U$61" library="output" package="#I�C#0" value="" x="69.469" y="8.89" smashed="yes" rot="MR0"/>
 <element name="U$62" library="output" package="#GND#4" value="" x="58.166" y="6.223" smashed="yes" rot="R270"/>
 <element name="U$63" library="output" package="#3V3#0" value="" x="60.706" y="6.096" smashed="yes" rot="R270"/>
-<element name="LOGO14" library="SparkFun-Aesthetics" package="SFE_LOGO_FLAME_.1" value="SFE_LOGO_FLAME.1_INCH" x="75.184" y="7.493" smashed="yes"/>
+<element name="LOGO14" library="SparkFun-Aesthetics" package="SFE_LOGO_FLAME_.1" value="SFE_LOGO_FLAME.1_INCH" x="74.676" y="7.62" smashed="yes"/>
 <element name="U$64" library="output" package="##INT##0" value="" x="73.787" y="16.51" smashed="yes" rot="MR0"/>
 <element name="U$65" library="output" package="#SDA#0" value="" x="63.246" y="6.223" smashed="yes" rot="R270"/>
 <element name="U$66" library="output" package="##CS##1" value="" x="68.326" y="5.08" smashed="yes" rot="R270"/>
@@ -6445,7 +6444,6 @@ These are the minimums &lt;a href=&quot;https://jlcpcb.com/capabilities/Capabili
 </element>
 <element name="J12" library="SparkFun-Connectors" package="1X06_NO_SILK" value="" x="84.074" y="1.27" smashed="yes">
 <attribute name="NAME" x="82.804" y="2.667" size="0.6096" layer="25" font="vector" ratio="20"/>
-<attribute name="PROD_ID" value="CONN-08437" x="84.074" y="1.27" size="1.778" layer="27" font="vector" ratio="15" display="off"/>
 <attribute name="VALUE" x="82.804" y="-0.762" size="0.6096" layer="27" font="vector" ratio="20"/>
 </element>
 <element name="R19" library="SparkFun-Resistors" package="0603" value="10k" x="95.504" y="16.51" smashed="yes">
@@ -6498,7 +6496,7 @@ These are the minimums &lt;a href=&quot;https://jlcpcb.com/capabilities/Capabili
 <element name="U$84" library="output" package="#I�C#0" value="" x="95.377" y="8.89" smashed="yes" rot="MR0"/>
 <element name="U$85" library="output" package="#GND#4" value="" x="84.074" y="6.223" smashed="yes" rot="R270"/>
 <element name="U$86" library="output" package="#3V3#0" value="" x="86.614" y="6.096" smashed="yes" rot="R270"/>
-<element name="LOGO19" library="SparkFun-Aesthetics" package="SFE_LOGO_FLAME_.1" value="SFE_LOGO_FLAME.1_INCH" x="101.092" y="7.493" smashed="yes"/>
+<element name="LOGO19" library="SparkFun-Aesthetics" package="SFE_LOGO_FLAME_.1" value="SFE_LOGO_FLAME.1_INCH" x="100.584" y="7.62" smashed="yes"/>
 <element name="U$87" library="output" package="##INT##0" value="" x="99.695" y="16.51" smashed="yes" rot="MR0"/>
 <element name="U$88" library="output" package="#SDA#0" value="" x="89.154" y="6.223" smashed="yes" rot="R270"/>
 <element name="U$89" library="output" package="##CS##1" value="" x="94.234" y="5.08" smashed="yes" rot="R270"/>
@@ -6569,7 +6567,6 @@ These are the minimums &lt;a href=&quot;https://jlcpcb.com/capabilities/Capabili
 </element>
 <element name="J15" library="SparkFun-Connectors" package="1X06_NO_SILK" value="" x="109.982" y="1.27" smashed="yes">
 <attribute name="NAME" x="108.712" y="2.667" size="0.6096" layer="25" font="vector" ratio="20"/>
-<attribute name="PROD_ID" value="CONN-08437" x="109.982" y="1.27" size="1.778" layer="27" font="vector" ratio="15" display="off"/>
 <attribute name="VALUE" x="108.712" y="-0.762" size="0.6096" layer="27" font="vector" ratio="20"/>
 </element>
 <element name="R24" library="SparkFun-Resistors" package="0603" value="10k" x="121.412" y="16.51" smashed="yes">
@@ -6622,7 +6619,7 @@ These are the minimums &lt;a href=&quot;https://jlcpcb.com/capabilities/Capabili
 <element name="U$107" library="output" package="#I�C#0" value="" x="121.285" y="8.89" smashed="yes" rot="MR0"/>
 <element name="U$108" library="output" package="#GND#4" value="" x="109.982" y="6.223" smashed="yes" rot="R270"/>
 <element name="U$109" library="output" package="#3V3#0" value="" x="112.522" y="6.096" smashed="yes" rot="R270"/>
-<element name="LOGO24" library="SparkFun-Aesthetics" package="SFE_LOGO_FLAME_.1" value="SFE_LOGO_FLAME.1_INCH" x="127" y="7.493" smashed="yes"/>
+<element name="LOGO24" library="SparkFun-Aesthetics" package="SFE_LOGO_FLAME_.1" value="SFE_LOGO_FLAME.1_INCH" x="126.492" y="7.62" smashed="yes"/>
 <element name="U$110" library="output" package="##INT##0" value="" x="125.603" y="16.51" smashed="yes" rot="MR0"/>
 <element name="U$111" library="output" package="#SDA#0" value="" x="115.062" y="6.223" smashed="yes" rot="R270"/>
 <element name="U$112" library="output" package="##CS##1" value="" x="120.142" y="5.08" smashed="yes" rot="R270"/>
@@ -6693,7 +6690,6 @@ These are the minimums &lt;a href=&quot;https://jlcpcb.com/capabilities/Capabili
 </element>
 <element name="J18" library="SparkFun-Connectors" package="1X06_NO_SILK" value="" x="6.35" y="27.178" smashed="yes">
 <attribute name="NAME" x="5.08" y="28.575" size="0.6096" layer="25" font="vector" ratio="20"/>
-<attribute name="PROD_ID" value="CONN-08437" x="6.35" y="27.178" size="1.778" layer="27" font="vector" ratio="15" display="off"/>
 <attribute name="VALUE" x="5.08" y="25.146" size="0.6096" layer="27" font="vector" ratio="20"/>
 </element>
 <element name="R29" library="SparkFun-Resistors" package="0603" value="10k" x="17.78" y="42.418" smashed="yes">
@@ -6746,7 +6742,7 @@ These are the minimums &lt;a href=&quot;https://jlcpcb.com/capabilities/Capabili
 <element name="U$130" library="output" package="#I�C#0" value="" x="17.653" y="34.798" smashed="yes" rot="MR0"/>
 <element name="U$131" library="output" package="#GND#4" value="" x="6.35" y="32.131" smashed="yes" rot="R270"/>
 <element name="U$132" library="output" package="#3V3#0" value="" x="8.89" y="32.004" smashed="yes" rot="R270"/>
-<element name="LOGO29" library="SparkFun-Aesthetics" package="SFE_LOGO_FLAME_.1" value="SFE_LOGO_FLAME.1_INCH" x="23.368" y="33.401" smashed="yes"/>
+<element name="LOGO29" library="SparkFun-Aesthetics" package="SFE_LOGO_FLAME_.1" value="SFE_LOGO_FLAME.1_INCH" x="22.86" y="33.528" smashed="yes"/>
 <element name="U$133" library="output" package="##INT##0" value="" x="21.971" y="42.418" smashed="yes" rot="MR0"/>
 <element name="U$134" library="output" package="#SDA#0" value="" x="11.43" y="32.131" smashed="yes" rot="R270"/>
 <element name="U$135" library="output" package="##CS##1" value="" x="16.51" y="30.988" smashed="yes" rot="R270"/>
@@ -6817,7 +6813,6 @@ These are the minimums &lt;a href=&quot;https://jlcpcb.com/capabilities/Capabili
 </element>
 <element name="J21" library="SparkFun-Connectors" package="1X06_NO_SILK" value="" x="32.258" y="27.178" smashed="yes">
 <attribute name="NAME" x="30.988" y="28.575" size="0.6096" layer="25" font="vector" ratio="20"/>
-<attribute name="PROD_ID" value="CONN-08437" x="32.258" y="27.178" size="1.778" layer="27" font="vector" ratio="15" display="off"/>
 <attribute name="VALUE" x="30.988" y="25.146" size="0.6096" layer="27" font="vector" ratio="20"/>
 </element>
 <element name="R34" library="SparkFun-Resistors" package="0603" value="10k" x="43.688" y="42.418" smashed="yes">
@@ -6870,7 +6865,7 @@ These are the minimums &lt;a href=&quot;https://jlcpcb.com/capabilities/Capabili
 <element name="U$153" library="output" package="#I�C#0" value="" x="43.561" y="34.798" smashed="yes" rot="MR0"/>
 <element name="U$154" library="output" package="#GND#4" value="" x="32.258" y="32.131" smashed="yes" rot="R270"/>
 <element name="U$155" library="output" package="#3V3#0" value="" x="34.798" y="32.004" smashed="yes" rot="R270"/>
-<element name="LOGO34" library="SparkFun-Aesthetics" package="SFE_LOGO_FLAME_.1" value="SFE_LOGO_FLAME.1_INCH" x="49.276" y="33.401" smashed="yes"/>
+<element name="LOGO34" library="SparkFun-Aesthetics" package="SFE_LOGO_FLAME_.1" value="SFE_LOGO_FLAME.1_INCH" x="48.768" y="33.528" smashed="yes"/>
 <element name="U$156" library="output" package="##INT##0" value="" x="47.879" y="42.418" smashed="yes" rot="MR0"/>
 <element name="U$157" library="output" package="#SDA#0" value="" x="37.338" y="32.131" smashed="yes" rot="R270"/>
 <element name="U$158" library="output" package="##CS##1" value="" x="42.418" y="30.988" smashed="yes" rot="R270"/>
@@ -6941,7 +6936,6 @@ These are the minimums &lt;a href=&quot;https://jlcpcb.com/capabilities/Capabili
 </element>
 <element name="J24" library="SparkFun-Connectors" package="1X06_NO_SILK" value="" x="58.166" y="27.178" smashed="yes">
 <attribute name="NAME" x="56.896" y="28.575" size="0.6096" layer="25" font="vector" ratio="20"/>
-<attribute name="PROD_ID" value="CONN-08437" x="58.166" y="27.178" size="1.778" layer="27" font="vector" ratio="15" display="off"/>
 <attribute name="VALUE" x="56.896" y="25.146" size="0.6096" layer="27" font="vector" ratio="20"/>
 </element>
 <element name="R39" library="SparkFun-Resistors" package="0603" value="10k" x="69.596" y="42.418" smashed="yes">
@@ -6994,7 +6988,7 @@ These are the minimums &lt;a href=&quot;https://jlcpcb.com/capabilities/Capabili
 <element name="U$176" library="output" package="#I�C#0" value="" x="69.469" y="34.798" smashed="yes" rot="MR0"/>
 <element name="U$177" library="output" package="#GND#4" value="" x="58.166" y="32.131" smashed="yes" rot="R270"/>
 <element name="U$178" library="output" package="#3V3#0" value="" x="60.706" y="32.004" smashed="yes" rot="R270"/>
-<element name="LOGO39" library="SparkFun-Aesthetics" package="SFE_LOGO_FLAME_.1" value="SFE_LOGO_FLAME.1_INCH" x="75.184" y="33.401" smashed="yes"/>
+<element name="LOGO39" library="SparkFun-Aesthetics" package="SFE_LOGO_FLAME_.1" value="SFE_LOGO_FLAME.1_INCH" x="74.676" y="33.528" smashed="yes"/>
 <element name="U$179" library="output" package="##INT##0" value="" x="73.787" y="42.418" smashed="yes" rot="MR0"/>
 <element name="U$180" library="output" package="#SDA#0" value="" x="63.246" y="32.131" smashed="yes" rot="R270"/>
 <element name="U$181" library="output" package="##CS##1" value="" x="68.326" y="30.988" smashed="yes" rot="R270"/>
@@ -7065,7 +7059,6 @@ These are the minimums &lt;a href=&quot;https://jlcpcb.com/capabilities/Capabili
 </element>
 <element name="J27" library="SparkFun-Connectors" package="1X06_NO_SILK" value="" x="84.074" y="27.178" smashed="yes">
 <attribute name="NAME" x="82.804" y="28.575" size="0.6096" layer="25" font="vector" ratio="20"/>
-<attribute name="PROD_ID" value="CONN-08437" x="84.074" y="27.178" size="1.778" layer="27" font="vector" ratio="15" display="off"/>
 <attribute name="VALUE" x="82.804" y="25.146" size="0.6096" layer="27" font="vector" ratio="20"/>
 </element>
 <element name="R44" library="SparkFun-Resistors" package="0603" value="10k" x="95.504" y="42.418" smashed="yes">
@@ -7118,7 +7111,7 @@ These are the minimums &lt;a href=&quot;https://jlcpcb.com/capabilities/Capabili
 <element name="U$199" library="output" package="#I�C#0" value="" x="95.377" y="34.798" smashed="yes" rot="MR0"/>
 <element name="U$200" library="output" package="#GND#4" value="" x="84.074" y="32.131" smashed="yes" rot="R270"/>
 <element name="U$201" library="output" package="#3V3#0" value="" x="86.614" y="32.004" smashed="yes" rot="R270"/>
-<element name="LOGO44" library="SparkFun-Aesthetics" package="SFE_LOGO_FLAME_.1" value="SFE_LOGO_FLAME.1_INCH" x="101.092" y="33.401" smashed="yes"/>
+<element name="LOGO44" library="SparkFun-Aesthetics" package="SFE_LOGO_FLAME_.1" value="SFE_LOGO_FLAME.1_INCH" x="100.584" y="33.528" smashed="yes"/>
 <element name="U$202" library="output" package="##INT##0" value="" x="99.695" y="42.418" smashed="yes" rot="MR0"/>
 <element name="U$203" library="output" package="#SDA#0" value="" x="89.154" y="32.131" smashed="yes" rot="R270"/>
 <element name="U$204" library="output" package="##CS##1" value="" x="94.234" y="30.988" smashed="yes" rot="R270"/>
@@ -7189,7 +7182,6 @@ These are the minimums &lt;a href=&quot;https://jlcpcb.com/capabilities/Capabili
 </element>
 <element name="J30" library="SparkFun-Connectors" package="1X06_NO_SILK" value="" x="109.982" y="27.178" smashed="yes">
 <attribute name="NAME" x="108.712" y="28.575" size="0.6096" layer="25" font="vector" ratio="20"/>
-<attribute name="PROD_ID" value="CONN-08437" x="109.982" y="27.178" size="1.778" layer="27" font="vector" ratio="15" display="off"/>
 <attribute name="VALUE" x="108.712" y="25.146" size="0.6096" layer="27" font="vector" ratio="20"/>
 </element>
 <element name="R49" library="SparkFun-Resistors" package="0603" value="10k" x="121.412" y="42.418" smashed="yes">
@@ -7242,7 +7234,7 @@ These are the minimums &lt;a href=&quot;https://jlcpcb.com/capabilities/Capabili
 <element name="U$222" library="output" package="#I�C#0" value="" x="121.285" y="34.798" smashed="yes" rot="MR0"/>
 <element name="U$223" library="output" package="#GND#4" value="" x="109.982" y="32.131" smashed="yes" rot="R270"/>
 <element name="U$224" library="output" package="#3V3#0" value="" x="112.522" y="32.004" smashed="yes" rot="R270"/>
-<element name="LOGO49" library="SparkFun-Aesthetics" package="SFE_LOGO_FLAME_.1" value="SFE_LOGO_FLAME.1_INCH" x="127" y="33.401" smashed="yes"/>
+<element name="LOGO49" library="SparkFun-Aesthetics" package="SFE_LOGO_FLAME_.1" value="SFE_LOGO_FLAME.1_INCH" x="126.492" y="33.528" smashed="yes"/>
 <element name="U$225" library="output" package="##INT##0" value="" x="125.603" y="42.418" smashed="yes" rot="MR0"/>
 <element name="U$226" library="output" package="#SDA#0" value="" x="115.062" y="32.131" smashed="yes" rot="R270"/>
 <element name="U$227" library="output" package="##CS##1" value="" x="120.142" y="30.988" smashed="yes" rot="R270"/>
@@ -7313,7 +7305,6 @@ These are the minimums &lt;a href=&quot;https://jlcpcb.com/capabilities/Capabili
 </element>
 <element name="J33" library="SparkFun-Connectors" package="1X06_NO_SILK" value="" x="6.35" y="53.086" smashed="yes">
 <attribute name="NAME" x="5.08" y="54.483" size="0.6096" layer="25" font="vector" ratio="20"/>
-<attribute name="PROD_ID" value="CONN-08437" x="6.35" y="53.086" size="1.778" layer="27" font="vector" ratio="15" display="off"/>
 <attribute name="VALUE" x="5.08" y="51.054" size="0.6096" layer="27" font="vector" ratio="20"/>
 </element>
 <element name="R54" library="SparkFun-Resistors" package="0603" value="10k" x="17.78" y="68.326" smashed="yes">
@@ -7366,7 +7357,7 @@ These are the minimums &lt;a href=&quot;https://jlcpcb.com/capabilities/Capabili
 <element name="U$245" library="output" package="#I�C#0" value="" x="17.653" y="60.706" smashed="yes" rot="MR0"/>
 <element name="U$246" library="output" package="#GND#4" value="" x="6.35" y="58.039" smashed="yes" rot="R270"/>
 <element name="U$247" library="output" package="#3V3#0" value="" x="8.89" y="57.912" smashed="yes" rot="R270"/>
-<element name="LOGO54" library="SparkFun-Aesthetics" package="SFE_LOGO_FLAME_.1" value="SFE_LOGO_FLAME.1_INCH" x="23.368" y="59.309" smashed="yes"/>
+<element name="LOGO54" library="SparkFun-Aesthetics" package="SFE_LOGO_FLAME_.1" value="SFE_LOGO_FLAME.1_INCH" x="22.86" y="59.436" smashed="yes"/>
 <element name="U$248" library="output" package="##INT##0" value="" x="21.971" y="68.326" smashed="yes" rot="MR0"/>
 <element name="U$249" library="output" package="#SDA#0" value="" x="11.43" y="58.039" smashed="yes" rot="R270"/>
 <element name="U$250" library="output" package="##CS##1" value="" x="16.51" y="56.896" smashed="yes" rot="R270"/>
@@ -7437,7 +7428,6 @@ These are the minimums &lt;a href=&quot;https://jlcpcb.com/capabilities/Capabili
 </element>
 <element name="J36" library="SparkFun-Connectors" package="1X06_NO_SILK" value="" x="32.258" y="53.086" smashed="yes">
 <attribute name="NAME" x="30.988" y="54.483" size="0.6096" layer="25" font="vector" ratio="20"/>
-<attribute name="PROD_ID" value="CONN-08437" x="32.258" y="53.086" size="1.778" layer="27" font="vector" ratio="15" display="off"/>
 <attribute name="VALUE" x="30.988" y="51.054" size="0.6096" layer="27" font="vector" ratio="20"/>
 </element>
 <element name="R59" library="SparkFun-Resistors" package="0603" value="10k" x="43.688" y="68.326" smashed="yes">
@@ -7490,7 +7480,7 @@ These are the minimums &lt;a href=&quot;https://jlcpcb.com/capabilities/Capabili
 <element name="U$268" library="output" package="#I�C#0" value="" x="43.561" y="60.706" smashed="yes" rot="MR0"/>
 <element name="U$269" library="output" package="#GND#4" value="" x="32.258" y="58.039" smashed="yes" rot="R270"/>
 <element name="U$270" library="output" package="#3V3#0" value="" x="34.798" y="57.912" smashed="yes" rot="R270"/>
-<element name="LOGO59" library="SparkFun-Aesthetics" package="SFE_LOGO_FLAME_.1" value="SFE_LOGO_FLAME.1_INCH" x="49.276" y="59.309" smashed="yes"/>
+<element name="LOGO59" library="SparkFun-Aesthetics" package="SFE_LOGO_FLAME_.1" value="SFE_LOGO_FLAME.1_INCH" x="48.768" y="59.436" smashed="yes"/>
 <element name="U$271" library="output" package="##INT##0" value="" x="47.879" y="68.326" smashed="yes" rot="MR0"/>
 <element name="U$272" library="output" package="#SDA#0" value="" x="37.338" y="58.039" smashed="yes" rot="R270"/>
 <element name="U$273" library="output" package="##CS##1" value="" x="42.418" y="56.896" smashed="yes" rot="R270"/>
@@ -7561,7 +7551,6 @@ These are the minimums &lt;a href=&quot;https://jlcpcb.com/capabilities/Capabili
 </element>
 <element name="J39" library="SparkFun-Connectors" package="1X06_NO_SILK" value="" x="58.166" y="53.086" smashed="yes">
 <attribute name="NAME" x="56.896" y="54.483" size="0.6096" layer="25" font="vector" ratio="20"/>
-<attribute name="PROD_ID" value="CONN-08437" x="58.166" y="53.086" size="1.778" layer="27" font="vector" ratio="15" display="off"/>
 <attribute name="VALUE" x="56.896" y="51.054" size="0.6096" layer="27" font="vector" ratio="20"/>
 </element>
 <element name="R64" library="SparkFun-Resistors" package="0603" value="10k" x="69.596" y="68.326" smashed="yes">
@@ -7614,7 +7603,7 @@ These are the minimums &lt;a href=&quot;https://jlcpcb.com/capabilities/Capabili
 <element name="U$291" library="output" package="#I�C#0" value="" x="69.469" y="60.706" smashed="yes" rot="MR0"/>
 <element name="U$292" library="output" package="#GND#4" value="" x="58.166" y="58.039" smashed="yes" rot="R270"/>
 <element name="U$293" library="output" package="#3V3#0" value="" x="60.706" y="57.912" smashed="yes" rot="R270"/>
-<element name="LOGO64" library="SparkFun-Aesthetics" package="SFE_LOGO_FLAME_.1" value="SFE_LOGO_FLAME.1_INCH" x="75.184" y="59.309" smashed="yes"/>
+<element name="LOGO64" library="SparkFun-Aesthetics" package="SFE_LOGO_FLAME_.1" value="SFE_LOGO_FLAME.1_INCH" x="74.676" y="59.436" smashed="yes"/>
 <element name="U$294" library="output" package="##INT##0" value="" x="73.787" y="68.326" smashed="yes" rot="MR0"/>
 <element name="U$295" library="output" package="#SDA#0" value="" x="63.246" y="58.039" smashed="yes" rot="R270"/>
 <element name="U$296" library="output" package="##CS##1" value="" x="68.326" y="56.896" smashed="yes" rot="R270"/>
@@ -7685,7 +7674,6 @@ These are the minimums &lt;a href=&quot;https://jlcpcb.com/capabilities/Capabili
 </element>
 <element name="J42" library="SparkFun-Connectors" package="1X06_NO_SILK" value="" x="84.074" y="53.086" smashed="yes">
 <attribute name="NAME" x="82.804" y="54.483" size="0.6096" layer="25" font="vector" ratio="20"/>
-<attribute name="PROD_ID" value="CONN-08437" x="84.074" y="53.086" size="1.778" layer="27" font="vector" ratio="15" display="off"/>
 <attribute name="VALUE" x="82.804" y="51.054" size="0.6096" layer="27" font="vector" ratio="20"/>
 </element>
 <element name="R69" library="SparkFun-Resistors" package="0603" value="10k" x="95.504" y="68.326" smashed="yes">
@@ -7738,7 +7726,7 @@ These are the minimums &lt;a href=&quot;https://jlcpcb.com/capabilities/Capabili
 <element name="U$314" library="output" package="#I�C#0" value="" x="95.377" y="60.706" smashed="yes" rot="MR0"/>
 <element name="U$315" library="output" package="#GND#4" value="" x="84.074" y="58.039" smashed="yes" rot="R270"/>
 <element name="U$316" library="output" package="#3V3#0" value="" x="86.614" y="57.912" smashed="yes" rot="R270"/>
-<element name="LOGO69" library="SparkFun-Aesthetics" package="SFE_LOGO_FLAME_.1" value="SFE_LOGO_FLAME.1_INCH" x="101.092" y="59.309" smashed="yes"/>
+<element name="LOGO69" library="SparkFun-Aesthetics" package="SFE_LOGO_FLAME_.1" value="SFE_LOGO_FLAME.1_INCH" x="100.584" y="59.436" smashed="yes"/>
 <element name="U$317" library="output" package="##INT##0" value="" x="99.695" y="68.326" smashed="yes" rot="MR0"/>
 <element name="U$318" library="output" package="#SDA#0" value="" x="89.154" y="58.039" smashed="yes" rot="R270"/>
 <element name="U$319" library="output" package="##CS##1" value="" x="94.234" y="56.896" smashed="yes" rot="R270"/>
@@ -7809,7 +7797,6 @@ These are the minimums &lt;a href=&quot;https://jlcpcb.com/capabilities/Capabili
 </element>
 <element name="J45" library="SparkFun-Connectors" package="1X06_NO_SILK" value="" x="109.982" y="53.086" smashed="yes">
 <attribute name="NAME" x="108.712" y="54.483" size="0.6096" layer="25" font="vector" ratio="20"/>
-<attribute name="PROD_ID" value="CONN-08437" x="109.982" y="53.086" size="1.778" layer="27" font="vector" ratio="15" display="off"/>
 <attribute name="VALUE" x="108.712" y="51.054" size="0.6096" layer="27" font="vector" ratio="20"/>
 </element>
 <element name="R74" library="SparkFun-Resistors" package="0603" value="10k" x="121.412" y="68.326" smashed="yes">
@@ -7862,7 +7849,7 @@ These are the minimums &lt;a href=&quot;https://jlcpcb.com/capabilities/Capabili
 <element name="U$337" library="output" package="#I�C#0" value="" x="121.285" y="60.706" smashed="yes" rot="MR0"/>
 <element name="U$338" library="output" package="#GND#4" value="" x="109.982" y="58.039" smashed="yes" rot="R270"/>
 <element name="U$339" library="output" package="#3V3#0" value="" x="112.522" y="57.912" smashed="yes" rot="R270"/>
-<element name="LOGO74" library="SparkFun-Aesthetics" package="SFE_LOGO_FLAME_.1" value="SFE_LOGO_FLAME.1_INCH" x="127" y="59.309" smashed="yes"/>
+<element name="LOGO74" library="SparkFun-Aesthetics" package="SFE_LOGO_FLAME_.1" value="SFE_LOGO_FLAME.1_INCH" x="126.492" y="59.436" smashed="yes"/>
 <element name="U$340" library="output" package="##INT##0" value="" x="125.603" y="68.326" smashed="yes" rot="MR0"/>
 <element name="U$341" library="output" package="#SDA#0" value="" x="115.062" y="58.039" smashed="yes" rot="R270"/>
 <element name="U$342" library="output" package="##CS##1" value="" x="120.142" y="56.896" smashed="yes" rot="R270"/>
@@ -7933,7 +7920,6 @@ These are the minimums &lt;a href=&quot;https://jlcpcb.com/capabilities/Capabili
 </element>
 <element name="J48" library="SparkFun-Connectors" package="1X06_NO_SILK" value="" x="6.35" y="78.994" smashed="yes">
 <attribute name="NAME" x="5.08" y="80.391" size="0.6096" layer="25" font="vector" ratio="20"/>
-<attribute name="PROD_ID" value="CONN-08437" x="6.35" y="78.994" size="1.778" layer="27" font="vector" ratio="15" display="off"/>
 <attribute name="VALUE" x="5.08" y="76.962" size="0.6096" layer="27" font="vector" ratio="20"/>
 </element>
 <element name="R79" library="SparkFun-Resistors" package="0603" value="10k" x="17.78" y="94.234" smashed="yes">
@@ -7986,7 +7972,7 @@ These are the minimums &lt;a href=&quot;https://jlcpcb.com/capabilities/Capabili
 <element name="U$360" library="output" package="#I�C#0" value="" x="17.653" y="86.614" smashed="yes" rot="MR0"/>
 <element name="U$361" library="output" package="#GND#4" value="" x="6.35" y="83.947" smashed="yes" rot="R270"/>
 <element name="U$362" library="output" package="#3V3#0" value="" x="8.89" y="83.82" smashed="yes" rot="R270"/>
-<element name="LOGO79" library="SparkFun-Aesthetics" package="SFE_LOGO_FLAME_.1" value="SFE_LOGO_FLAME.1_INCH" x="23.368" y="85.217" smashed="yes"/>
+<element name="LOGO79" library="SparkFun-Aesthetics" package="SFE_LOGO_FLAME_.1" value="SFE_LOGO_FLAME.1_INCH" x="22.86" y="85.344" smashed="yes"/>
 <element name="U$363" library="output" package="##INT##0" value="" x="21.971" y="94.234" smashed="yes" rot="MR0"/>
 <element name="U$364" library="output" package="#SDA#0" value="" x="11.43" y="83.947" smashed="yes" rot="R270"/>
 <element name="U$365" library="output" package="##CS##1" value="" x="16.51" y="82.804" smashed="yes" rot="R270"/>
@@ -8057,7 +8043,6 @@ These are the minimums &lt;a href=&quot;https://jlcpcb.com/capabilities/Capabili
 </element>
 <element name="J51" library="SparkFun-Connectors" package="1X06_NO_SILK" value="" x="32.258" y="78.994" smashed="yes">
 <attribute name="NAME" x="30.988" y="80.391" size="0.6096" layer="25" font="vector" ratio="20"/>
-<attribute name="PROD_ID" value="CONN-08437" x="32.258" y="78.994" size="1.778" layer="27" font="vector" ratio="15" display="off"/>
 <attribute name="VALUE" x="30.988" y="76.962" size="0.6096" layer="27" font="vector" ratio="20"/>
 </element>
 <element name="R84" library="SparkFun-Resistors" package="0603" value="10k" x="43.688" y="94.234" smashed="yes">
@@ -8110,7 +8095,7 @@ These are the minimums &lt;a href=&quot;https://jlcpcb.com/capabilities/Capabili
 <element name="U$383" library="output" package="#I�C#0" value="" x="43.561" y="86.614" smashed="yes" rot="MR0"/>
 <element name="U$384" library="output" package="#GND#4" value="" x="32.258" y="83.947" smashed="yes" rot="R270"/>
 <element name="U$385" library="output" package="#3V3#0" value="" x="34.798" y="83.82" smashed="yes" rot="R270"/>
-<element name="LOGO84" library="SparkFun-Aesthetics" package="SFE_LOGO_FLAME_.1" value="SFE_LOGO_FLAME.1_INCH" x="49.276" y="85.217" smashed="yes"/>
+<element name="LOGO84" library="SparkFun-Aesthetics" package="SFE_LOGO_FLAME_.1" value="SFE_LOGO_FLAME.1_INCH" x="48.768" y="85.344" smashed="yes"/>
 <element name="U$386" library="output" package="##INT##0" value="" x="47.879" y="94.234" smashed="yes" rot="MR0"/>
 <element name="U$387" library="output" package="#SDA#0" value="" x="37.338" y="83.947" smashed="yes" rot="R270"/>
 <element name="U$388" library="output" package="##CS##1" value="" x="42.418" y="82.804" smashed="yes" rot="R270"/>
@@ -8181,7 +8166,6 @@ These are the minimums &lt;a href=&quot;https://jlcpcb.com/capabilities/Capabili
 </element>
 <element name="J54" library="SparkFun-Connectors" package="1X06_NO_SILK" value="" x="58.166" y="78.994" smashed="yes">
 <attribute name="NAME" x="56.896" y="80.391" size="0.6096" layer="25" font="vector" ratio="20"/>
-<attribute name="PROD_ID" value="CONN-08437" x="58.166" y="78.994" size="1.778" layer="27" font="vector" ratio="15" display="off"/>
 <attribute name="VALUE" x="56.896" y="76.962" size="0.6096" layer="27" font="vector" ratio="20"/>
 </element>
 <element name="R89" library="SparkFun-Resistors" package="0603" value="10k" x="69.596" y="94.234" smashed="yes">
@@ -8234,7 +8218,7 @@ These are the minimums &lt;a href=&quot;https://jlcpcb.com/capabilities/Capabili
 <element name="U$406" library="output" package="#I�C#0" value="" x="69.469" y="86.614" smashed="yes" rot="MR0"/>
 <element name="U$407" library="output" package="#GND#4" value="" x="58.166" y="83.947" smashed="yes" rot="R270"/>
 <element name="U$408" library="output" package="#3V3#0" value="" x="60.706" y="83.82" smashed="yes" rot="R270"/>
-<element name="LOGO89" library="SparkFun-Aesthetics" package="SFE_LOGO_FLAME_.1" value="SFE_LOGO_FLAME.1_INCH" x="75.184" y="85.217" smashed="yes"/>
+<element name="LOGO89" library="SparkFun-Aesthetics" package="SFE_LOGO_FLAME_.1" value="SFE_LOGO_FLAME.1_INCH" x="74.676" y="85.344" smashed="yes"/>
 <element name="U$409" library="output" package="##INT##0" value="" x="73.787" y="94.234" smashed="yes" rot="MR0"/>
 <element name="U$410" library="output" package="#SDA#0" value="" x="63.246" y="83.947" smashed="yes" rot="R270"/>
 <element name="U$411" library="output" package="##CS##1" value="" x="68.326" y="82.804" smashed="yes" rot="R270"/>
@@ -8305,7 +8289,6 @@ These are the minimums &lt;a href=&quot;https://jlcpcb.com/capabilities/Capabili
 </element>
 <element name="J57" library="SparkFun-Connectors" package="1X06_NO_SILK" value="" x="84.074" y="78.994" smashed="yes">
 <attribute name="NAME" x="82.804" y="80.391" size="0.6096" layer="25" font="vector" ratio="20"/>
-<attribute name="PROD_ID" value="CONN-08437" x="84.074" y="78.994" size="1.778" layer="27" font="vector" ratio="15" display="off"/>
 <attribute name="VALUE" x="82.804" y="76.962" size="0.6096" layer="27" font="vector" ratio="20"/>
 </element>
 <element name="R94" library="SparkFun-Resistors" package="0603" value="10k" x="95.504" y="94.234" smashed="yes">
@@ -8358,7 +8341,7 @@ These are the minimums &lt;a href=&quot;https://jlcpcb.com/capabilities/Capabili
 <element name="U$429" library="output" package="#I�C#0" value="" x="95.377" y="86.614" smashed="yes" rot="MR0"/>
 <element name="U$430" library="output" package="#GND#4" value="" x="84.074" y="83.947" smashed="yes" rot="R270"/>
 <element name="U$431" library="output" package="#3V3#0" value="" x="86.614" y="83.82" smashed="yes" rot="R270"/>
-<element name="LOGO94" library="SparkFun-Aesthetics" package="SFE_LOGO_FLAME_.1" value="SFE_LOGO_FLAME.1_INCH" x="101.092" y="85.217" smashed="yes"/>
+<element name="LOGO94" library="SparkFun-Aesthetics" package="SFE_LOGO_FLAME_.1" value="SFE_LOGO_FLAME.1_INCH" x="100.584" y="85.344" smashed="yes"/>
 <element name="U$432" library="output" package="##INT##0" value="" x="99.695" y="94.234" smashed="yes" rot="MR0"/>
 <element name="U$433" library="output" package="#SDA#0" value="" x="89.154" y="83.947" smashed="yes" rot="R270"/>
 <element name="U$434" library="output" package="##CS##1" value="" x="94.234" y="82.804" smashed="yes" rot="R270"/>
@@ -8429,7 +8412,6 @@ These are the minimums &lt;a href=&quot;https://jlcpcb.com/capabilities/Capabili
 </element>
 <element name="J60" library="SparkFun-Connectors" package="1X06_NO_SILK" value="" x="109.982" y="78.994" smashed="yes">
 <attribute name="NAME" x="108.712" y="80.391" size="0.6096" layer="25" font="vector" ratio="20"/>
-<attribute name="PROD_ID" value="CONN-08437" x="109.982" y="78.994" size="1.778" layer="27" font="vector" ratio="15" display="off"/>
 <attribute name="VALUE" x="108.712" y="76.962" size="0.6096" layer="27" font="vector" ratio="20"/>
 </element>
 <element name="R99" library="SparkFun-Resistors" package="0603" value="10k" x="121.412" y="94.234" smashed="yes">
@@ -8482,7 +8464,7 @@ These are the minimums &lt;a href=&quot;https://jlcpcb.com/capabilities/Capabili
 <element name="U$452" library="output" package="#I�C#0" value="" x="121.285" y="86.614" smashed="yes" rot="MR0"/>
 <element name="U$453" library="output" package="#GND#4" value="" x="109.982" y="83.947" smashed="yes" rot="R270"/>
 <element name="U$454" library="output" package="#3V3#0" value="" x="112.522" y="83.82" smashed="yes" rot="R270"/>
-<element name="LOGO99" library="SparkFun-Aesthetics" package="SFE_LOGO_FLAME_.1" value="SFE_LOGO_FLAME.1_INCH" x="127" y="85.217" smashed="yes"/>
+<element name="LOGO99" library="SparkFun-Aesthetics" package="SFE_LOGO_FLAME_.1" value="SFE_LOGO_FLAME.1_INCH" x="126.492" y="85.344" smashed="yes"/>
 <element name="U$455" library="output" package="##INT##0" value="" x="125.603" y="94.234" smashed="yes" rot="MR0"/>
 <element name="U$456" library="output" package="#SDA#0" value="" x="115.062" y="83.947" smashed="yes" rot="R270"/>
 <element name="U$457" library="output" package="##CS##1" value="" x="120.142" y="82.804" smashed="yes" rot="R270"/>
@@ -8553,7 +8535,6 @@ These are the minimums &lt;a href=&quot;https://jlcpcb.com/capabilities/Capabili
 </element>
 <element name="J63" library="SparkFun-Connectors" package="1X06_NO_SILK" value="" x="6.35" y="104.902" smashed="yes">
 <attribute name="NAME" x="5.08" y="106.299" size="0.6096" layer="25" font="vector" ratio="20"/>
-<attribute name="PROD_ID" value="CONN-08437" x="6.35" y="104.902" size="1.778" layer="27" font="vector" ratio="15" display="off"/>
 <attribute name="VALUE" x="5.08" y="102.87" size="0.6096" layer="27" font="vector" ratio="20"/>
 </element>
 <element name="R104" library="SparkFun-Resistors" package="0603" value="10k" x="17.78" y="120.142" smashed="yes">
@@ -8606,7 +8587,7 @@ These are the minimums &lt;a href=&quot;https://jlcpcb.com/capabilities/Capabili
 <element name="U$475" library="output" package="#I�C#0" value="" x="17.653" y="112.522" smashed="yes" rot="MR0"/>
 <element name="U$476" library="output" package="#GND#4" value="" x="6.35" y="109.855" smashed="yes" rot="R270"/>
 <element name="U$477" library="output" package="#3V3#0" value="" x="8.89" y="109.728" smashed="yes" rot="R270"/>
-<element name="LOGO104" library="SparkFun-Aesthetics" package="SFE_LOGO_FLAME_.1" value="SFE_LOGO_FLAME.1_INCH" x="23.368" y="111.125" smashed="yes"/>
+<element name="LOGO104" library="SparkFun-Aesthetics" package="SFE_LOGO_FLAME_.1" value="SFE_LOGO_FLAME.1_INCH" x="22.86" y="111.252" smashed="yes"/>
 <element name="U$478" library="output" package="##INT##0" value="" x="21.971" y="120.142" smashed="yes" rot="MR0"/>
 <element name="U$479" library="output" package="#SDA#0" value="" x="11.43" y="109.855" smashed="yes" rot="R270"/>
 <element name="U$480" library="output" package="##CS##1" value="" x="16.51" y="108.712" smashed="yes" rot="R270"/>
@@ -8677,7 +8658,6 @@ These are the minimums &lt;a href=&quot;https://jlcpcb.com/capabilities/Capabili
 </element>
 <element name="J66" library="SparkFun-Connectors" package="1X06_NO_SILK" value="" x="32.258" y="104.902" smashed="yes">
 <attribute name="NAME" x="30.988" y="106.299" size="0.6096" layer="25" font="vector" ratio="20"/>
-<attribute name="PROD_ID" value="CONN-08437" x="32.258" y="104.902" size="1.778" layer="27" font="vector" ratio="15" display="off"/>
 <attribute name="VALUE" x="30.988" y="102.87" size="0.6096" layer="27" font="vector" ratio="20"/>
 </element>
 <element name="R109" library="SparkFun-Resistors" package="0603" value="10k" x="43.688" y="120.142" smashed="yes">
@@ -8730,7 +8710,7 @@ These are the minimums &lt;a href=&quot;https://jlcpcb.com/capabilities/Capabili
 <element name="U$498" library="output" package="#I�C#0" value="" x="43.561" y="112.522" smashed="yes" rot="MR0"/>
 <element name="U$499" library="output" package="#GND#4" value="" x="32.258" y="109.855" smashed="yes" rot="R270"/>
 <element name="U$500" library="output" package="#3V3#0" value="" x="34.798" y="109.728" smashed="yes" rot="R270"/>
-<element name="LOGO109" library="SparkFun-Aesthetics" package="SFE_LOGO_FLAME_.1" value="SFE_LOGO_FLAME.1_INCH" x="49.276" y="111.125" smashed="yes"/>
+<element name="LOGO109" library="SparkFun-Aesthetics" package="SFE_LOGO_FLAME_.1" value="SFE_LOGO_FLAME.1_INCH" x="48.768" y="111.252" smashed="yes"/>
 <element name="U$501" library="output" package="##INT##0" value="" x="47.879" y="120.142" smashed="yes" rot="MR0"/>
 <element name="U$502" library="output" package="#SDA#0" value="" x="37.338" y="109.855" smashed="yes" rot="R270"/>
 <element name="U$503" library="output" package="##CS##1" value="" x="42.418" y="108.712" smashed="yes" rot="R270"/>
@@ -8801,7 +8781,6 @@ These are the minimums &lt;a href=&quot;https://jlcpcb.com/capabilities/Capabili
 </element>
 <element name="J69" library="SparkFun-Connectors" package="1X06_NO_SILK" value="" x="58.166" y="104.902" smashed="yes">
 <attribute name="NAME" x="56.896" y="106.299" size="0.6096" layer="25" font="vector" ratio="20"/>
-<attribute name="PROD_ID" value="CONN-08437" x="58.166" y="104.902" size="1.778" layer="27" font="vector" ratio="15" display="off"/>
 <attribute name="VALUE" x="56.896" y="102.87" size="0.6096" layer="27" font="vector" ratio="20"/>
 </element>
 <element name="R114" library="SparkFun-Resistors" package="0603" value="10k" x="69.596" y="120.142" smashed="yes">
@@ -8854,7 +8833,7 @@ These are the minimums &lt;a href=&quot;https://jlcpcb.com/capabilities/Capabili
 <element name="U$521" library="output" package="#I�C#0" value="" x="69.469" y="112.522" smashed="yes" rot="MR0"/>
 <element name="U$522" library="output" package="#GND#4" value="" x="58.166" y="109.855" smashed="yes" rot="R270"/>
 <element name="U$523" library="output" package="#3V3#0" value="" x="60.706" y="109.728" smashed="yes" rot="R270"/>
-<element name="LOGO114" library="SparkFun-Aesthetics" package="SFE_LOGO_FLAME_.1" value="SFE_LOGO_FLAME.1_INCH" x="75.184" y="111.125" smashed="yes"/>
+<element name="LOGO114" library="SparkFun-Aesthetics" package="SFE_LOGO_FLAME_.1" value="SFE_LOGO_FLAME.1_INCH" x="74.676" y="111.252" smashed="yes"/>
 <element name="U$524" library="output" package="##INT##0" value="" x="73.787" y="120.142" smashed="yes" rot="MR0"/>
 <element name="U$525" library="output" package="#SDA#0" value="" x="63.246" y="109.855" smashed="yes" rot="R270"/>
 <element name="U$526" library="output" package="##CS##1" value="" x="68.326" y="108.712" smashed="yes" rot="R270"/>
@@ -8925,7 +8904,6 @@ These are the minimums &lt;a href=&quot;https://jlcpcb.com/capabilities/Capabili
 </element>
 <element name="J72" library="SparkFun-Connectors" package="1X06_NO_SILK" value="" x="84.074" y="104.902" smashed="yes">
 <attribute name="NAME" x="82.804" y="106.299" size="0.6096" layer="25" font="vector" ratio="20"/>
-<attribute name="PROD_ID" value="CONN-08437" x="84.074" y="104.902" size="1.778" layer="27" font="vector" ratio="15" display="off"/>
 <attribute name="VALUE" x="82.804" y="102.87" size="0.6096" layer="27" font="vector" ratio="20"/>
 </element>
 <element name="R119" library="SparkFun-Resistors" package="0603" value="10k" x="95.504" y="120.142" smashed="yes">
@@ -8978,7 +8956,7 @@ These are the minimums &lt;a href=&quot;https://jlcpcb.com/capabilities/Capabili
 <element name="U$544" library="output" package="#I�C#0" value="" x="95.377" y="112.522" smashed="yes" rot="MR0"/>
 <element name="U$545" library="output" package="#GND#4" value="" x="84.074" y="109.855" smashed="yes" rot="R270"/>
 <element name="U$546" library="output" package="#3V3#0" value="" x="86.614" y="109.728" smashed="yes" rot="R270"/>
-<element name="LOGO119" library="SparkFun-Aesthetics" package="SFE_LOGO_FLAME_.1" value="SFE_LOGO_FLAME.1_INCH" x="101.092" y="111.125" smashed="yes"/>
+<element name="LOGO119" library="SparkFun-Aesthetics" package="SFE_LOGO_FLAME_.1" value="SFE_LOGO_FLAME.1_INCH" x="100.584" y="111.252" smashed="yes"/>
 <element name="U$547" library="output" package="##INT##0" value="" x="99.695" y="120.142" smashed="yes" rot="MR0"/>
 <element name="U$548" library="output" package="#SDA#0" value="" x="89.154" y="109.855" smashed="yes" rot="R270"/>
 <element name="U$549" library="output" package="##CS##1" value="" x="94.234" y="108.712" smashed="yes" rot="R270"/>
@@ -9049,7 +9027,6 @@ These are the minimums &lt;a href=&quot;https://jlcpcb.com/capabilities/Capabili
 </element>
 <element name="J75" library="SparkFun-Connectors" package="1X06_NO_SILK" value="" x="109.982" y="104.902" smashed="yes">
 <attribute name="NAME" x="108.712" y="106.299" size="0.6096" layer="25" font="vector" ratio="20"/>
-<attribute name="PROD_ID" value="CONN-08437" x="109.982" y="104.902" size="1.778" layer="27" font="vector" ratio="15" display="off"/>
 <attribute name="VALUE" x="108.712" y="102.87" size="0.6096" layer="27" font="vector" ratio="20"/>
 </element>
 <element name="R124" library="SparkFun-Resistors" package="0603" value="10k" x="121.412" y="120.142" smashed="yes">
@@ -9102,7 +9079,7 @@ These are the minimums &lt;a href=&quot;https://jlcpcb.com/capabilities/Capabili
 <element name="U$567" library="output" package="#I�C#0" value="" x="121.285" y="112.522" smashed="yes" rot="MR0"/>
 <element name="U$568" library="output" package="#GND#4" value="" x="109.982" y="109.855" smashed="yes" rot="R270"/>
 <element name="U$569" library="output" package="#3V3#0" value="" x="112.522" y="109.728" smashed="yes" rot="R270"/>
-<element name="LOGO124" library="SparkFun-Aesthetics" package="SFE_LOGO_FLAME_.1" value="SFE_LOGO_FLAME.1_INCH" x="127" y="111.125" smashed="yes"/>
+<element name="LOGO124" library="SparkFun-Aesthetics" package="SFE_LOGO_FLAME_.1" value="SFE_LOGO_FLAME.1_INCH" x="126.492" y="111.252" smashed="yes"/>
 <element name="U$570" library="output" package="##INT##0" value="" x="125.603" y="120.142" smashed="yes" rot="MR0"/>
 <element name="U$571" library="output" package="#SDA#0" value="" x="115.062" y="109.855" smashed="yes" rot="R270"/>
 <element name="U$572" library="output" package="##CS##1" value="" x="120.142" y="108.712" smashed="yes" rot="R270"/>
