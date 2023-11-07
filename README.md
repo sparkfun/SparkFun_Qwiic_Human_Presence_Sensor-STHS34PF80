@@ -3,7 +3,7 @@ SparkFun Human Presence and Motion Sensor - STHS34PF80
 
 | [SparkFun Human Presence and Motion Sensor - STHS34PF80 (Qwiic)  *(SEN-22494)*](https://www.sparkfun.com/products/22494) | [SparkFun Qwiic Mini Human Presence and Motion Sensor - STHS34PF80 *(SEN-23253)*](https://www.sparkfun.com/products/23253) |
 | --- | --- |
-| [![product in standard 1x1 form factor](https://cdn.sparkfun.com/assets/parts/2/2/5/5/6/22494-Presence_Sensor_Feature.jpg)](https://www.sparkfun.com/products/22494) | [![product in mini form factor](https://cdn.sparkfun.com/assets/parts/2/3/4/4/5/23253_Presence_Sensor_Mini_Feature.jpg)](https://www.sparkfun.com/products/23253) |
+| [![product in standard 1x1 form factor](https://cdn.sparkfun.com/r/300-300/assets/parts/2/2/5/5/6/22494-Presence_Sensor_Feature1.jpg)](https://www.sparkfun.com/products/22494) | [![product in mini form factor](https://cdn.sparkfun.com/r/300-300/assets/parts/2/3/4/4/5/23253_Presence_Sensor_Mini_Feature.jpg)](https://www.sparkfun.com/products/23253) |
 
 
 The STHS34PF80 sensor, from [ST Microelectronics](https://www.st.com/
@@ -35,7 +35,12 @@ Repository Contents
 Documentation
 --------------
 
+* **[Hookup Guide (mkdocs)](http://docs.sparkfun.com/SparkFun_Qwiic_Human_Presence_Sensor-STHS34PF80/)** - Hookup guide for the mosaic-X5 GNSS Breakout hosted by GitHub pages.
   * [Arduino Library](https://github.com/sparkfun/SparkFun_STHS34PF80_Arduino_Library/tree/main)
+
+*Need to download or print our hookup guide?*
+
+* [Print *(Print to PDF)* from Single-Page View](http://docs.sparkfun.com/SparkFun_Qwiic_Human_Presence_Sensor-STHS34PF80/print_view)
 
 Product Variants
 ----------------
@@ -45,8 +50,9 @@ Product Variants
 
 Version History
 ---------------
-* [vExxFxxZxxHxxLxxSxx](URL for tag specific to this version) - Description 
-* [vEyyFyyZyyHyyLyySyy](URL for tag specific to this version) - Description
+
+* [v10](https://github.com/sparkfun/SparkFun_Qwiic_Human_Presence_Sensor-STHS34PF80/releases/tag/v10) - Initial Release
+
 
 License Information
 -------------------
