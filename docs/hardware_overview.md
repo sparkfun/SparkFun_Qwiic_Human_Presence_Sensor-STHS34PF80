@@ -224,7 +224,7 @@ The I<sup>2</sup>C interface can also be accessed either through the breakout pi
 ### SPI Pins
 The STHS34PF80 sensor operates in a 3-wire SPI configuration. In a 3-wire mode, the data signal lines are combined into a single bidirectional data line. The data transactions are half-duplex to allow for bidirectional communication.
 
-<div class="annotate" align="center" markdown>
+<div align="center" markdown>
 
 <table markdown>
 <tr>
@@ -246,15 +246,15 @@ The STHS34PF80 sensor operates in a 3-wire SPI configuration. In a 3-wire mode, 
 <td align="center" style="vertical-align:middle" markdown>`CS`</td>
 <td align="center" style="vertical-align:middle" markdown>`CS`</td>
 <td markdown>
-Chip select<br>
-Interface selection (1)
+Chip select:<br>
+`1`: I²C enabled<br>
+`0`: SPI enabled
 </td>
 </tr>
 </table>
 
 </div>
 
-1. 1: I²C enabled; 0: SPI enabled
 
 
 <div class="grid" markdown>
