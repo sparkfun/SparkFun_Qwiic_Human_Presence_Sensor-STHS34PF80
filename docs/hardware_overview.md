@@ -305,7 +305,7 @@ By default, the interrupt pin signals when data is available. However, the detec
 </center>
 
 ## Qwiic Connectors
-Qwiic connectors are provided for users to seamlessly integrate with [SparkFun's Qwiic Ecosystem](https://www.sparkfun.com/qwiic). Otherwise, users can access the I<sup>2</sup>C interface through the [PTH pins broken out on the board](#i2c-interface).
+Qwiic connectors are provided for users to seamlessly integrate with [SparkFun's Qwiic Ecosystem](https://www.sparkfun.com/qwiic). Otherwise, users can access the I<sup>2</sup>C interface through the [PTH pins broken out on the board](#i2c-pins).
 
 
 <div class="grid" markdown>
@@ -331,6 +331,10 @@ Qwiic connectors are provided for users to seamlessly integrate with [SparkFun's
 
 ??? tip "What is Qwiic?"
 
+	<div class="grid" markdown>
+
+	<div markdown>
+
 	<!-- Qwiic Banner -->
 	<center>
 	[![Qwiic Logo - light theme](./assets/img/qwiic_logo-light.png#only-light){ width=400 }](https://www.sparkfun.com/qwiic)
@@ -339,9 +343,13 @@ Qwiic connectors are provided for users to seamlessly integrate with [SparkFun's
 
 	---
 
-	The [Qwiic connect system](https://www.sparkfun.com/qwiic) is a solderless, polarized connection system that allows users to seamlessly daisy chain I<sup>2</sup>C boards together. Play the video below to learn more about the Qwiic connect system or click on the banner above to learn more about [Qwiic products](https://www.sparkfun.com/qwiic).
-	
-	
+	The [Qwiic connect system](https://www.sparkfun.com/qwiic) is a solderless, polarized connection system that allows users to seamlessly daisy chain I^2^C boards together. Play the video, to learn more about the Qwiic connect system or click on the banner above to learn more about [Qwiic products](https://www.sparkfun.com/qwiic).
+
+	</div>
+
+
+	<div style="max-height=400px;" markdown>
+
 	<center>
 	<div class="video-container">
 	<iframe src="https://www.youtube.com/embed/x0RDEHqFIF8" title="SparkFun's Qwiic Connect System" frameborder="0" allow="accelerometer; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
@@ -349,6 +357,10 @@ Qwiic connectors are provided for users to seamlessly integrate with [SparkFun's
 	![QR code to instructional video](./assets/img/qr_code/qwiic_video.png){ .qr width=100 }
 	</div>
 	</center>
+
+	</div>
+
+	</div>
 
 
 	!!! info "Features of the Qwiic System"
@@ -365,16 +377,17 @@ Qwiic connectors are provided for users to seamlessly integrate with [SparkFun's
 			![polarized connector - light theme](./assets/img/polarized_connector-light.png#only-light){ align="left" width="90" }
 			![polarized connector - dark theme](./assets/img/polarized_connector-dark.png#only-dark){ align="left" width="90" }
 
-			There's no need to worry about accidentally swapping the SDA and SCL wires on your breadboard. The Qwiic connector is polarized so you know you’ll have it wired correctly 	every time, right from the start.
+			There's no need to worry about accidentally swapping the `SDA` and `SCL` wires on your breadboard. The Qwiic connector is polarized so you know you’ll have it wired correctly every time.
 
-			The PCB connector is part number SM04B-SRSS ([Datasheet](https://cdn.sparkfun.com/assets/parts/1/2/2/8/9/Qwiic_Connector_Datasheet.pdf)) or equivalent. The mating connector used on cables is part number SHR04V-S-B or an equivalent *(1mm pitch, 4-pin JST connector)*.
+			The part numbers for the PCB connector is `SM04B-SRSS` ([Datasheet](https://cdn.sparkfun.com/assets/parts/1/2/2/8/9/Qwiic_Connector_Datasheet.pdf)) and the mating connector on the cables is `SHR04V-S-B`; or an equivalent *1mm pitch, 4-pin JST connection*.
 
 		=== "Daisy Chain-able"
 
 			![daisy chainable - light theme](./assets/img/daisy_chainable-light.png#only-light){ align="left" width="90" }
 			![daisy chainable - dark theme](./assets/img/daisy_chainable-dark.png#only-dark){ align="left" width="90" }
 
-			It’s time to leverage the power of the I<sup>2</sup>C bus! Most Qwiic boards will have two or more connectors on them, allowing multiple devices to be connected.
+			It’s time to leverage the power of the I^2^C bus! Most Qwiic boards will have two or more connectors on them, allowing multiple devices to be connected.
+
 
 ## Jumpers
 
