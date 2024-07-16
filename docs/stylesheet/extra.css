@@ -279,60 +279,48 @@
 /* Aspect ratio: height = 56.25% of width */
 /* 90vw = 90% of (viewport width) */
 
-.video {
+.video-container {
   position: relative;
-  width: 100%;
+  padding-bottom: 56.25%; /* 16:9 */
+  height: 0;
 }
-.video iframe {
-  position: relative;
+.video-container iframe {
+  position: absolute;
   top: 0;
-  width: 60vw;
-  height: 33.75vw;
-  border: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+}
+
+.video-500px {
+  position: relative;
+  padding-bottom: min(281.25px, 56.25%); /* 16:9 */
+  height: 0;
+  max-width: 500px;
+  max-height: 281.25px;
+}
+.video-500px iframe {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
   overflow: hidden;
 }
 
-/* Product Description */
-/* ================================================================================== */
-/* Smaller Card w/ Product Image */
-.video_desc {
+.video-300px {
   position: relative;
-  width: 100%;
+  padding-bottom: min(168.75px, 56.25%); /* 16:9 */
+  height: 0;
+  max-width: 300px;
+  max-height: 168.75px;
 }
-.video_desc iframe {
-  position: relative;
+.video-300px iframe {
+  position: absolute;
   top: 0;
-  width: 16vw;
-  height: 9vw;
-  border: 0;
-  overflow: hidden;
-}
-/* Larger Card w/ Product Description */
-.video_desc2 {
-  position: relative;
+  left: 0;
   width: 100%;
-}
-.video_desc2 iframe {
-  position: relative;
-  top: 0;
-  width: 30vw;
-  height: 16.875vw;
-  border: 0;
-  overflow: hidden;
-}
-
-/* Grid Cards */
-/* ================================================================================== */
-.video_cards {
-  position: relative;
-  width: 100%;
-}
-.video_cards iframe {
-  position: relative;
-  top: 0;
-  width: 16vw;
-  height: 9vw;
-  border: 0;
+  height: 100%;
   overflow: hidden;
 }
 
@@ -342,47 +330,36 @@
 
 /* Double ToC */
 /* ================================================================================== */
-@media (max-width: 1220px) {
-  .video_desc iframe {
-    width: 16vw;
-    height: 9vw;
-    min-width: 200px;
-    min-height: 112.5px;
-  }
-  .video_cards iframe {
-    width: 16vw;
-    height: 9vw;
+
+@media (max-width: 1219px) {
+  .video-container iframe {
+    /* width: 16vw;
+    height: 9vw; */
     min-width: 200px;
     min-height: 112.5px;
   }
 }
 
 @media (min-width: 1220px) {
-  .video iframe {
-    width: 50vw;
-    height: 28.125vw;
+  .video-container iframe {
+    max-width: 50vw;
+    max-height: 28.125vw;
   }
 }
 
 @media (min-width:1600px) {
-  .video iframe {
-    width: 60vw;
-    height: 33.75vw;
+  .video-container iframe {
+    max-width: 60vw;
+    max-height: 33.75vw;
   }
 }
 
 /* Single ToC */
 /* ================================================================================== */
 @media (max-width: 960px) {
-  .video_desc iframe {
-    width: 20vw;
-    height: 11.25vw;
-    min-width: 200px;
-    min-height: 112.5px;
-  }
-  .video_cards iframe {
-    width: 20vw;
-    height: 11.25vw;
+  .video-container iframe {
+    /* width: 20vw;
+    height: 11.25vw; */
     min-width: 200px;
     min-height: 112.5px;
   }
@@ -391,59 +368,13 @@
 /* No ToC */
 /* ================================================================================== */
 @media (max-width: 750px) {
-  .video_desc iframe {
-    width: 60vw;
-    height: 33.75vw;
-  }
-  .video_desc2 iframe {
-    width: 60vw;
-    height: 33.75vw;
-  }
-}
-@media (max-width: 696px) {
-  .video_cards iframe {
+  .video-container iframe {
     width: 60vw;
     height: 33.75vw;
   }
 }
 
 
-
-
-/* .video iframe {
-  position: relative;
-  top: 0;
-  width: 90vh;
-  height: 47vw;
-  border: 0;
-  overflow: hidden;
-}
-
-.video_desc {
-  position: relative;
-  width: 100%;
-}
-.video_desc iframe {
-  position: relative;
-  top: 0;
-  width: 90vh;
-  height: 47vw;
-  border: 0;
-  overflow: hidden;
-}
-
-.video_desc2 {
-  position: relative;
-  width: 100%;
-}
-.video_desc2 iframe {
-  position: relative;
-  top: 0;
-  width: 90vh;
-  height: 47vw;
-  border: 0;
-  overflow: hidden;
-} */
 
 /* No ToC */
 /* ================================================================================== */

@@ -40,7 +40,7 @@ The Qwiic Mini Human Presence and Motion Sensor breakout boards are laid out in 
 		This video from Autodesk demonstrates how to utilize the dimensions tool in Eagle, to include additional measurements:
 
 		<center>
-		<div class="video">
+		<div class="video-500px">
 		<iframe src="https://www.youtube.com/embed/dZLNd1FtNB8" title="EAGLE Dimension Tool" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 		</div>
 		![QR code to play video](./assets/img/qr_code/dimension_tool.png){ .qr }
@@ -328,6 +328,7 @@ Qwiic connectors are provided for users to seamlessly integrate with [SparkFun's
 *Qwiic connectors on the Qwiic Human Presence/Motion Sensor boards.*
 </center>
 
+
 ??? tip "What is Qwiic?"
 
 	<!-- Qwiic Banner -->
@@ -342,8 +343,10 @@ Qwiic connectors are provided for users to seamlessly integrate with [SparkFun's
 	
 	
 	<center>
-	<div class="video">
+	<div class="video-container">
 	<iframe src="https://www.youtube.com/embed/x0RDEHqFIF8" title="SparkFun's Qwiic Connect System" frameborder="0" allow="accelerometer; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
+	![QR code to instructional video](./assets/img/qr_code/qwiic_video.png){ .qr width=100 }
 	</div>
 	</center>
 
