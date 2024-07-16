@@ -1,3 +1,6 @@
+!!! bug
+	This example doesn't currently operate properly; we are actively looking into the issue. To track our progress, please refer to this [GitHub issue](https://github.com/sparkfun/SparkFun_STHS34PF80_Arduino_Library/issues/7).
+
 ## Description
 The [`Example4_SPIFunctionality.ino`](https://github.com/sparkfun/SparkFun_STHS34PF80_Arduino_Library/blob/main/examples/Example4_SPIFunctionality) example file can be accessed from the **File** > **Examples** > **SparkFun STHS34PF80 Arduino Library** > **Example4_SPIFunctionality** drop-down menu. This example operates similarly to the code in [`Example1_BasicReadings.ino`](https://github.com/sparkfun/SparkFun_STHS34PF80_Arduino_Library/blob/main/examples/Example1_BasicReadings). Instead of retrieving data through the I<sup>2</sup>C interface, the serial peripheral interface (SPI) is used to access the human presence detection values from the STHS34PF80 sensor.
 
