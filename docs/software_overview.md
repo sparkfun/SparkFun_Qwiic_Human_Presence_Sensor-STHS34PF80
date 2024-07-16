@@ -70,7 +70,7 @@ Most users may already be familiar with the Arduino IDE and its use. However, fo
 	When selecting a board to program in the Arduino IDE, users should select the **Arduino Uno** from the **Tools** drop-down menu _(_i.e. **Tools** > **Board** > **Arduino AVR Boards** > **Arduino Uno**)_.
 
 	<figure markdown>
-	[![](../assets/img/hookup_guide/board_selection.png "Click to enlarge"){ width="400" }](../assets/img/hookup_guide/board_selection.png)
+	[![](./assets/img/hookup_guide/board_selection.png "Click to enlarge"){ width="400" }](./assets/img/hookup_guide/board_selection.png)
 	<figcaption markdown>Select the **Arduino Uno** from the Tools drop-down menu in the Arduino IDE.</figcaption>
 	</figure>
 
@@ -78,7 +78,7 @@ Most users may already be familiar with the Arduino IDE and its use. However, fo
 		In the newest version of the Arduino IDE 2.`x`.`x`, users can also select their board (*green*) and port (*blue*) from the `Select Board & Port` dropdown menu (*yellow*).
 
 		<figure markdown>
-		[![](../assets/img/hookup_guide/board_selection2.png "Click to enlarge"){ width="400" }](../assets/img/hookup_guide/board_selection2.png)
+		[![](./assets/img/hookup_guide/board_selection2.png "Click to enlarge"){ width="400" }](./assets/img/hookup_guide/board_selection2.png)
 		<figcaption markdown>Selecting the **Arduino Uno** and **COM5** port from the **Select Board & Port** drop-down menu in the Arduino IDE (v2.0.3).</figcaption>
 	</figure>
 
@@ -89,7 +89,7 @@ The [SparkFun STHS34PF80 Arduino library](https://github.com/sparkfun/SparkFun_S
 	SparkFun STHS34PF80 Arduino library
 
 <figure markdown>
-[![](../assets/img/hookup_guide/arduino_library.png "Click to enlarge"){ width="400" }](../assets/img/hookup_guide/arduino_library.png)
+[![](./assets/img/hookup_guide/arduino_library.png "Click to enlarge"){ width="400" }](./assets/img/hookup_guide/arduino_library.png)
 <figcaption markdown>SparkFun STHS34PF80 Arduino library in the library manager of the Arduino IDE.</figcaption>
 </figure>
 

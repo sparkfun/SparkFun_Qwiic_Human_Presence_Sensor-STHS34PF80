@@ -34,7 +34,7 @@ The STHS34PF80 sensor, from [ST Microelectronics](https://www.st.com/), is desig
 	</figure></a>
 
 	<center>
-	[![QR code to product page](../img/qr_code/product-23253.png){ .tinyqr }&nbsp;&nbsp;&nbsp;Purchase from SparkFun :fontawesome-solid-cart-plus:{ .heart }](https://www.sparkfun.com/products/23253){ .md-button .md-button--primary }
+	[![QR code to product page](./assets/img/qr_code/product-23253.png){ .tinyqr }&nbsp;&nbsp;&nbsp;Purchase from SparkFun :fontawesome-solid-cart-plus:{ .heart }](https://www.sparkfun.com/products/23253){ .md-button .md-button--primary }
 	</center>
 
 </section>
