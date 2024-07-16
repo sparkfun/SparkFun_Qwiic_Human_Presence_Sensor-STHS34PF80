@@ -195,12 +195,19 @@ markdown_extensions:
 
   # Adds the ability to embed content from arbitrary files
   - pymdownx.snippets:
-      # base_path: ['./docs']
+      base_path: ['.', './docs']
       url_download: true
       url_max_size: 0
       url_timeout: 0
       url_request_headers: {}
-  
+      dedent_subsections: True
+
+      # Adds support for glossary of abbreviations
+      auto_append:
+        # - https://raw.githubusercontent.com/santaimpersonator/git-test/main/glossary-sparkfun.md
+        - glossary-sparkfun.md
+        - glossary-local.md
+
   # Allows embedding of code blocks in other elements
   - pymdownx.superfences
   
