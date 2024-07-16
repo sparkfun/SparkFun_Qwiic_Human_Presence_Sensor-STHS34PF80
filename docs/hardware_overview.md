@@ -164,6 +164,30 @@ The sensor can operate in multiple lighting conditions and is unaffected by visi
 
 </div>
 
+??? note "Operation Modes"
+	The STHS34PF80 has three operation modes:
+
+	* **Power-down:** After the boot is completed, the device is automatically configured in power-down mode.
+	* **One-shot:**	When configured in one-shot mode, the device can read environmental data at the very moment the controlling MCU requires it.
+	* **Continuous:**	When configured in continuous mode, the device keeps reading data at predefined frequencies (fixed output data rates, ODRs).
+	
+	In both one-shot mode and continuous mode, the STHS34PF80 allows performing prior averaging (filtering) of the values of ambient temperature and object temperature to obtain smoother outputs.
+
+	!!! info
+		For more details, users can refer to [Section 3 of the AN5867 - Operation Manual](./assets/component_documentation/an5867-operation-manual.pdf).
+
+??? note "Smart Detection Algorithms"
+	The STHS34PF80 has three detection modes that are provided by the built-in smart algorithms:
+
+	* Presence detection
+	* Motion detection
+	* Ambient temperature shock detection
+
+	*\*These are not available when wide mode is configured.*
+
+	!!! info
+		For more details, users can refer to [Section 7 of the AN5867 - Operation Manual](./assets/component_documentation/an5867-operation-manual.pdf).
+
 
 ## Breakout Pins
 There are six [PTH](https://en.wikipedia.org/wiki/Through-hole_technology "Plated Through Holes") pins broken out on the Qwiic Human Presence/Motion Sensor boards. The pins are evenly spaced at 0.1" on the outer edge of the board; perfect for attaching [headers](https://www.sparkfun.com/categories/381). These pins provide access to the I<sup>2</sup>C and SPI interfaces of the STHS34PF80 sensor, including the interrupt pin.
