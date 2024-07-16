@@ -13,6 +13,8 @@
 	* :simple-arduino: [Arduino Library](https://github.com/sparkfun/SparkFun_STHS34PF80_Arduino_Library/tree/main)
 	* Component Documentation
 		* :fontawesome-solid-file-pdf: [STHS34PF805 Datasheet](./assets/component_documentation/sths34pf80.pdf)
+		* :fontawesome-solid-file-pdf: [AN5983 - Hardware Guidelines](./assets/component_documentation/an5983-hardware-implementation-guidelines.pdf)
+		* :fontawesome-solid-file-pdf: [AN5867 - Operation Manual](./assets/component_documentation/an5867-operation-manual.pdf)
 	* :material-github: [Hardware Repo](https://github.com/sparkfun/SparkFun_Qwiic_Human_Presence_Sensor-STHS34PF80)
 
 - **Human Presence and Motion Sensor - STHS34PF80 (Qwiic)**
