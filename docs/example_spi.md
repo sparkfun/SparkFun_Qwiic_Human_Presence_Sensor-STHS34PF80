@@ -64,4 +64,4 @@ The logic-level switch on the RedBoard Plus.
 </div>
 
 !!! note
-	Users will need to cut/disconnect the `CS` jumper to enable the [SPI](https://en.wikipedia.org/wiki/Serial_Peripheral_Interface "Serial Peripheral Interface") communication on the Qwiic Human Presence/Motion Sensor boards.
+	Users will need to initially pull the `CS` pin low, to enable the [SPI](https://en.wikipedia.org/wiki/Serial_Peripheral_Interface "Serial Peripheral Interface") communication on the Qwiic Human Presence/Motion Sensor boards.

@@ -195,7 +195,7 @@ The I<sup>2</sup>C interface can also be accessed either through the breakout pi
 </center>
 
 !!! info "Enabling the I<sup>2</sup>C Interface"
-	The I<sup>2</sup>C interface is enabled by default on the Qwiic Human Presence/Motion Sensor boards. To disable the I<sup>2</sup>C interface and enable the SPI interface, users must [modify the `CS` jumper](#jumpers).
+	The I<sup>2</sup>C interface is enabled by default on the Qwiic Human Presence/Motion Sensor boards. To disable the I<sup>2</sup>C interface and enable the SPI interface, users must ensure that the `CS` pin is initially pulled down (`0`).
 
 ??? tip " Qwiic Connector"
 	Qwiic connectors are provided for users to seamlessly integrate I<sup>2</sup>C devices with [SparkFun's Qwiic Ecosystem](https://www.sparkfun.com/qwiic).
@@ -278,7 +278,7 @@ Chip select:<br>
 </center>
 
 !!! info "Enabling the SPI Interface"
-	The I<sup>2</sup>C interface is enabled by default on the Qwiic Human Presence/Motion Sensor boards. To disable the I<sup>2</sup>C interface and enable the SPI interface, users must [modify the `CS` jumper](#jumpers). On boot-up, the `CS` must be in a `LOW` state to enable the SPI interface.
+	The I<sup>2</sup>C interface is enabled by default on the Qwiic Human Presence/Motion Sensor boards. To disable the I<sup>2</sup>C interface and enable the SPI interface, users must ensure that the `CS` pin is initially pulled down. *(On boot-up, the `CS` must be in a `LOW` state to enable the SPI interface.)*
 
 
 ### Interrupt Pin
